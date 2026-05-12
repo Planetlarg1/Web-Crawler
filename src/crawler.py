@@ -10,8 +10,26 @@ Functionality:
 
 from urllib.parse import urldefrag, urlparse, urljoin
 from bs4 import BeautifulSoup
+from dataclasses import dataclass
+import requests
 
 ALLOWED_DOMAIN = "quotes.toscrape.com"
+REQUEST_TIMEOUT = 10
+USER_AGENT = "COMP3011-Coursework-2-Crawler/1.0"
+
+@dataclass
+class CrawledPage:
+    """
+    Represents a single successfully crawled web page to be passed to the indexer.
+
+    Attributes:
+        url: The normalised url of the webpage
+        title: The extracted plaintext title of the webpage
+        text: The extracted plaintext contents of the webpage
+    """
+    url: str
+    title: str
+    text: str
 
 def normalise_url(url: str) -> str:
     """
@@ -106,3 +124,34 @@ def extract_visible_text(html: str) -> tuple[str, str]:
     text = soup.get_text(" ", strip=True) if soup.text else ""
 
     return title, text
+
+
+def fetch_page(url: str) -> str | None:
+    """
+    Fetches a single HTML page.
+
+    Input: URL for the desired web page.
+
+    Output: 
+        Response text and webpage HTML on success. 
+        None on failure or if contents is not HTML.
+    """
+    # Attempt to fetch web page
+    try:
+        response = requests.get(
+            url,
+            timeout=REQUEST_TIMEOUT,
+            headers={"User-Agent": USER_AGENT}
+        )
+        response.raise_for_status()
+    except requests.RequestException:
+        return None
+    
+    # Get content type
+    content_type = response.headers.get("Content-Type", "")
+
+    # Check for HTML
+    if "text/html" not in content_type:
+        return None
+    
+    return response.text

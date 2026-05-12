@@ -1,8 +1,11 @@
+import requests
 from src.crawler import (
     normalise_url,
     check_url_allowed,
     extract_links,
-    extract_visible_text)
+    extract_visible_text,
+    CrawledPage,
+    fetch_page)
 
 # URL NORMALISATION
 def test_normalise_url_removes_fragment():
@@ -167,3 +170,94 @@ def test_extract_visible_text_no_body():
 
     assert title == "Quotes to Scrape"
     assert text == ""
+
+
+# PAGE FETCHING
+class FakeResponse:
+    def __init__(
+        self,
+        text: str = "",
+        content_type: str = "text/html",
+        should_raise: bool = False
+    ):
+        self.text = text
+        self.headers = {"Content-Type": content_type}
+        self.should_raise = should_raise
+
+
+    def raise_for_status(self):
+        if self.should_raise:
+            raise requests.RequestException("HTTP error")
+        
+
+def test_fetch_page_returns_html(monkeypatch):
+    def fake_get(url, timeout, headers):
+        return FakeResponse(
+            text="<html><body>Quotes</body></html>",
+            content_type="text/html"
+        )
+    
+    monkeypatch.setattr("src.crawler.requests.get", fake_get)
+
+    result = fetch_page("https://quotes.toscrape.com/")
+
+    assert result == "<html><body>Quotes</body></html>"
+
+def test_fetch_page_not_html(monkeypatch):
+    def fake_get(url, timeout, headers):
+        return FakeResponse(
+            text="body { color: red; }",
+            content_type="text/css"
+        )
+    
+    monkeypatch.setattr("src.crawler.requests.get", fake_get)
+
+    result = fetch_page("https://quotes.toscrape.com/static/styles.css")
+
+    assert result is None
+
+def test_fetch_page_failed_request(monkeypatch):
+    def fake_get(url, timeout, headers):
+        raise requests.RequestException("Network failure")
+    
+    monkeypatch.setattr("src.crawler.requests.get", fake_get)
+
+    result = fetch_page("https://quotes.toscrape.com/")
+
+    assert result is None
+
+def test_fetch_page_attrs_sent(monkeypatch):
+    captured_args = {}
+
+    def fake_get(url, timeout, headers):
+        captured_args["url"] = url
+        captured_args["timeout"] = timeout
+        captured_args["headers"] = headers
+
+        return FakeResponse(
+            text="<html></html>",
+            content_type="text/html"
+        )
+    
+    monkeypatch.setattr("src.crawler.requests.get", fake_get)
+
+    result = fetch_page("https://quotes.toscrape.com/")
+
+    assert captured_args["url"] == "https://quotes.toscrape.com/"
+    assert captured_args["timeout"] == 10
+    assert "User-Agent" in captured_args["headers"]
+    assert captured_args["headers"]["User-Agent"] == "COMP3011-Coursework-2-Crawler/1.0"
+
+def test_fetch_page_http_error(monkeypatch):
+    def fake_get(url, timeout, headers):
+        return FakeResponse(
+            text="<html></html>",
+            content_type="text/html",
+            should_raise=True
+        )
+    
+    monkeypatch.setattr("src.crawler.requests.get", fake_get)
+
+    result = fetch_page("https://quotes.toscrape.com/missing-page/")
+
+    assert result is None
