@@ -8,7 +8,10 @@ Functionality:
 - Ensures URL belongs to quotes.toscrape
 """
 
-from urllib.parse import urldefrag, urlparse
+from urllib.parse import urldefrag, urlparse, urljoin
+from bs4 import BeautifulSoup
+
+ALLOWED_DOMAIN = "quotes.toscrape.com"
 
 def normalise_url(url: str) -> str:
     """
@@ -36,17 +39,42 @@ def normalise_url(url: str) -> str:
     return normalised_url
 
 
-def check_url_allowed(url: str, allowed_domain: str) -> bool:
+def check_url_allowed(url: str) -> bool:
     """
     Privacy is a very important consideration in web scraping, so the URL 
     must be checked to ensure that it belongs to the correct domain.
     Also checks that HTTP or HTTPS are used.
 
-    Input: URL and the allowed domain
+    Input: URL to check
 
     Output: Boolean value for is allowed
     """
     parsed = urlparse(url)
 
     # Check http/https and domain
-    return parsed.scheme in {"http", "https"} and parsed.netloc == allowed_domain
+    return parsed.scheme in {"http", "https"} and parsed.netloc == ALLOWED_DOMAIN
+
+
+def extract_links(html: str, base_url: str) -> list[str]:
+    """
+    Given raw HTML, embedded links must be located, normalised and checked.
+    External links and duplicate links are ignored.
+
+    Input: raw HTML and the base URL
+
+    Output: A list of strings representing the processed URLs.
+    """
+    # User BeautifulSoup for html parsing
+    soup = BeautifulSoup(html, "html.parser")
+
+    links: set[str] = set()
+
+    # Locate and process links
+    for anchor in soup.find_all("a", href=True):
+        absolute_url = urljoin(base_url, anchor["href"])
+        normalised_url = normalise_url(absolute_url)
+
+        if check_url_allowed(normalised_url):
+            links.add(normalised_url)
+
+    return sorted(links)
