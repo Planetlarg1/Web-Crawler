@@ -64,7 +64,7 @@ def extract_links(html: str, base_url: str) -> list[str]:
 
     Output: A list of strings representing the processed URLs.
     """
-    # User BeautifulSoup for html parsing
+    # Use BeautifulSoup for html parsing
     soup = BeautifulSoup(html, "html.parser")
 
     links: set[str] = set()
@@ -78,3 +78,31 @@ def extract_links(html: str, base_url: str) -> list[str]:
             links.add(normalised_url)
 
     return sorted(links)
+
+
+def extract_visible_text(html: str) -> tuple[str, str]:
+    """
+    Given raw HTML, the page title and visible text should be extracted for analysis.
+    Script, style, and noscript elements are removed because they aren't useful for search.
+
+    Input: Raw HTML
+
+    Output: Tuple of page title and visible text
+    """
+    # Use BeautifulSoup for html parsing
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Extract title
+    title = soup.title.get_text(" ", strip=True) if soup.title else ""
+
+    # Remove invisible componenents
+    for element in soup(["script", "style", "noscript"]):
+        element.decompose()
+
+    if soup.head:
+        soup.head.decompose()
+
+    # Extract relevant data if existing
+    text = soup.get_text(" ", strip=True) if soup.text else ""
+
+    return title, text

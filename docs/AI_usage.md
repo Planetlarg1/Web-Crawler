@@ -20,3 +20,13 @@ The AI recommended the use of BeautifulSoup to find anchor tags and urljoin to g
 
 #### Evaluation
 The recommendations and instructions were very useful, and I was able to adapt the code for my own use. However, the proposed solution did not incorporate logic for URL normalisation or ignoring external URLs, so I had to incorporate the logic from my other subroutines into this one. This suggests that AI generated code can be very useful in progressing your work and finding solutions to problems, but it must often be adapted to satisfy specific requirements.
+
+## Example 3: Visible Text
+#### Prompt
+I wish to extract just the visible text from a web page for the sake of web crawling. What HTML elements should I ignore?
+
+#### Output Summary
+The output clearly indicated that I should use BeautifulSoup to parse the HTML, removing 'script', 'style', and 'noscript' elements, then extracting the page title and visible text.
+
+#### Evaluation
+I believe that this is an area in which AI exceeds. It is only a quick and simple prompt, but when I tried to google it, I could not find the answer. AI is able to use context and supporting materials to answer highly specific questions - an area where search browsers lack. Another prompt I used on this topic was to generate example HTML that I could use for testing, saving me time and improving efficiency.
