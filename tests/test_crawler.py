@@ -261,3 +261,9 @@ def test_fetch_page_http_error(monkeypatch):
     result = fetch_page("https://quotes.toscrape.com/missing-page/")
 
     assert result is None
+
+def test_fetch_page_real_site():
+    html = fetch_page("https://quotes.toscrape.com/")
+
+    assert html is not None
+    assert "Quotes to Scrape" in html
