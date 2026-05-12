@@ -12,10 +12,12 @@ from urllib.parse import urldefrag, urlparse, urljoin
 from bs4 import BeautifulSoup
 from dataclasses import dataclass
 import requests
+import time
 
 ALLOWED_DOMAIN = "quotes.toscrape.com"
 REQUEST_TIMEOUT = 10
 USER_AGENT = "COMP3011-Coursework-2-Crawler/1.0"
+POLITENESS_DELAY = 6.0
 
 @dataclass
 class CrawledPage:
@@ -155,3 +157,21 @@ def fetch_page(url: str) -> str | None:
         return None
     
     return response.text
+
+
+def wait_for_politeness(last_request_time: float | None) -> None:
+    """
+    Enforces politeness window of 6 seconds be respected.
+
+    Input: last_request_time is float timestamp of previous request, or None there has been no request
+    """
+    # Check if there was a previous request
+    if last_request_time is None:
+        return
+    
+    # Delay by remaining window, accounting for computational delays
+    elapsed = time.time() - last_request_time
+    remaining_delay = POLITENESS_DELAY - elapsed
+
+    if remaining_delay > 0:
+        time.sleep(remaining_delay)

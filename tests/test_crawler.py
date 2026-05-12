@@ -5,7 +5,8 @@ from src.crawler import (
     extract_links,
     extract_visible_text,
     CrawledPage,
-    fetch_page)
+    fetch_page,
+    wait_for_politeness)
 
 # URL NORMALISATION
 def test_normalise_url_removes_fragment():
@@ -262,8 +263,61 @@ def test_fetch_page_http_error(monkeypatch):
 
     assert result is None
 
+""" Limit online testing
 def test_fetch_page_real_site():
     html = fetch_page("https://quotes.toscrape.com/")
 
     assert html is not None
     assert "Quotes to Scrape" in html
+"""
+
+
+# POLITENESS WINDOW
+def test_politeness_initial_request(monkeypatch):
+    sleep_calls = []
+
+    def fake_sleep(seconds):
+        sleep_calls.append(seconds)
+
+    # Remove delay in testing
+    monkeypatch.setattr("src.crawler.time.sleep", fake_sleep)
+
+    wait_for_politeness(None)
+
+    assert sleep_calls == []
+
+def test_politeness_with_delay(monkeypatch):
+    sleep_calls = []
+
+    def fake_time():
+        return 10.0
+    
+    def fake_sleep(seconds):
+        sleep_calls.append(seconds)
+
+    # Remove delay in testing
+    monkeypatch.setattr("src.crawler.time.sleep", fake_sleep)
+    monkeypatch.setattr("src.crawler.time.time", fake_time)
+
+    # Request should be too soon - should have to wait
+    wait_for_politeness(last_request_time=7.5)
+
+    assert sleep_calls == [3.5]
+
+def test_politeness_without_delay(monkeypatch):
+    sleep_calls = []
+
+    def fake_time():
+        return 20.0
+    
+    def fake_sleep(seconds):
+        sleep_calls.append(seconds)
+
+    # Remove delay in testing
+    monkeypatch.setattr("src.crawler.time.sleep", fake_sleep)
+    monkeypatch.setattr("src.crawler.time.time", fake_time)
+
+    # Request not too soon - shouldn't have to wait
+    wait_for_politeness(last_request_time=7.5)
+
+    assert sleep_calls == []
