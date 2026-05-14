@@ -89,6 +89,39 @@ def print_index(index_data: dict | None, command: str) -> dict | None:
         print(" " + "-" * 100)
 
 
+def find(index_data: dict | None, command: str) -> None:
+    """
+    Returns documents containing a multi-word query.
+    """
+    if index_data is None:
+        print("No index loaded. Please run 'build' and 'load' first.")
+        return
+    
+    # Only split once, keeping query as a single string
+    parts = command.split(maxsplit=1)
+
+    if len(parts) == 1:
+        print("Please provide a query to find.")
+        return
+    
+    query = parts[1].strip()
+    results = find_query(index_data, query)
+
+    # No matches
+    if not results:
+        print(f"No results for '{query}'")
+        return
+
+    print(f"Results for '{query}' ({len(results)} pages):")
+
+    print(" " + "-" * 100)
+    for count, result in enumerate(results, start=1):
+        print(f"| Page: {result['url']}")
+        print(f"| Title: {result['title']}")
+        print(f"| Score: {result['score']}")
+        print(" " + "-" * 100)
+
+
 def run_shell() -> None:
     """
     Run interactive shell for command running.
@@ -126,6 +159,7 @@ def run_shell() -> None:
             continue
 
         if command.startswith("find"):
+            find(index, command)
             continue
 
         else:

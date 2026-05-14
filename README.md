@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Usage
 Run the file from the command line using
 ```bash
-python src/main.py
+python -m src.main
 ```
 
 Commands:
