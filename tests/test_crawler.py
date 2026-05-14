@@ -6,7 +6,8 @@ from src.crawler import (
     extract_visible_text,
     CrawledPage,
     fetch_page,
-    wait_for_politeness)
+    wait_for_politeness,
+    politely_fetch_page)
 
 # URL NORMALISATION
 def test_normalise_url_removes_fragment():
@@ -321,3 +322,77 @@ def test_politeness_without_delay(monkeypatch):
     wait_for_politeness(last_request_time=7.5)
 
     assert sleep_calls == []
+
+
+# POLITE FETCHING
+def test_fetch_page_with_delay(monkeypatch):
+    sleep_calls = []
+
+    def fake_fetch(url):
+        return "<html>Quotes</html>"
+    
+    def fake_time():
+        return 10.0
+    
+    def fake_sleep(s):
+        sleep_calls.append(s)
+    
+    monkeypatch.setattr("src.crawler.fetch_page", fake_fetch)
+    monkeypatch.setattr("src.crawler.time.time", fake_time)
+    monkeypatch.setattr("src.crawler.time.sleep", fake_sleep)
+    
+    html, new_time = politely_fetch_page(
+        "https://quotes.toscrape.com",
+        last_request_time = 7.5
+    )
+
+    assert sleep_calls == [3.5]
+    assert html == "<html>Quotes</html>"
+    assert new_time == 10.0
+
+def test_fetch_page_without_delay(monkeypatch):
+    sleep_calls = []
+
+    def fake_fetch(url):
+        return "<html>Quotes</html>"
+    
+    def fake_time():
+        return 20.0
+    
+    def fake_sleep(s):
+        sleep_calls.append(s)
+    
+    monkeypatch.setattr("src.crawler.fetch_page", fake_fetch)
+    monkeypatch.setattr("src.crawler.time.time", fake_time)
+    monkeypatch.setattr("src.crawler.time.sleep", fake_sleep)
+    
+    html, new_time = politely_fetch_page(
+        "https://quotes.toscrape.com",
+        last_request_time = 14
+    )
+
+    assert sleep_calls == []
+    assert html == "<html>Quotes</html>"
+    assert new_time == 20.0
+
+def test_failed_polite_fetch(monkeypatch):
+    def fake_fetch(url):
+        return None
+    
+    def fake_time():
+        return 20.0
+    
+    def fake_wait(s):
+        pass
+    
+    monkeypatch.setattr("src.crawler.fetch_page", fake_fetch)
+    monkeypatch.setattr("src.crawler.time.time", fake_time)
+    monkeypatch.setattr("src.crawler.wait_for_politeness", fake_wait)
+    
+    html, new_time = politely_fetch_page(
+        "https://incorrect_url.com",
+        last_request_time = 2
+    )
+
+    assert html is None
+    assert new_time == 20

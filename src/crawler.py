@@ -175,3 +175,27 @@ def wait_for_politeness(last_request_time: float | None) -> None:
 
     if remaining_delay > 0:
         time.sleep(remaining_delay)
+
+
+def politely_fetch_page(
+        url: str,
+        last_request_time: float | None,
+) -> tuple[str | None, float]:
+    """
+    Combines utility of fetch_page and wait_for_politeness.
+
+    Input:
+        url: The URL to fetch
+        last_request_time: Float timestamp of previous request
+
+    Output:
+        Tuple containing HTML and updated timestamp
+    """
+    # Politeness window
+    wait_for_politeness(last_request_time)
+
+    # Fetch page
+    html = fetch_page(url)
+    new_request_time = time.time()
+
+    return html, new_request_time
