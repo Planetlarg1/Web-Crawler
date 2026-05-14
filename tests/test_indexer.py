@@ -1,7 +1,8 @@
 from src.indexer import (
     tokenise,
     index_page,
-    CrawledPage
+    CrawledPage,
+    build_index
 )
 
 ################
@@ -34,7 +35,7 @@ def test_tokenisation_empty():
 page = CrawledPage(
         url="https://quotes.toscrape.com/",
         title="Test Page",
-        text="Hello. World's-testing! hello TeSTING hello",
+        text="Hello. World's-testing! hello TeSTING hello"
     )
 
 def test_page_indexing_frequency():
@@ -55,7 +56,91 @@ def test_page_indexing_empty():
     page_index = index_page(CrawledPage(
         url="https://quotes.toscrape.com/",
         title="Test Page",
-        text="",
+        text=""
     ))
 
     assert page_index == {}
+
+###########################
+# INVERTED INDEX BUILDING #
+###########################
+pages = [
+        CrawledPage(
+            url="https://quotes.toscrape.com/",
+            title="Page 1",
+            text="Hello. World's-testing! hello TeSTING hello"
+        ),
+        CrawledPage(
+            url="https://quotes.toscrape.com/page/2/",
+            title="Page 2",
+            text="Page 2: New. new PAGE- data/data daTA hello"
+        ),
+    ]
+
+def test_build_index_documents():
+    result = build_index(pages)
+
+    assert result["documents"] == {
+        "1": {
+            "url": "https://quotes.toscrape.com/",
+            "title": "Page 1",
+            "token_count": 7
+        },
+        "2": {
+            "url": "https://quotes.toscrape.com/page/2/",
+            "title": "Page 2",
+            "token_count": 9
+        }
+    }
+
+def test_build_index_term_across_pages():
+    result = build_index(pages)
+
+    assert result["index"]["hello"] == {
+        "1": {
+            "frequency": 3,
+            "positions": [0, 4, 6]
+        },
+        "2": {
+            "frequency": 1,
+            "positions": [8]
+        }
+    }
+
+def test_build_index_term_in_single_page():
+    result = build_index(pages)
+
+    assert "1" in result["index"]["world"]
+    assert "2" not in result["index"]["world"]
+    assert "1" not in result["index"]["new"]
+    assert "2" in result["index"]["new"]
+
+def test_build_index_no_pages():
+    result = build_index([])
+
+    assert result == {
+        "documents": {},
+        "index": {}
+    }
+
+def test_build_index_empty_pages():
+    pages = [
+        CrawledPage(
+            url="https://quotes.toscrape.com/",
+            title="Page 1",
+            text=""
+        )
+    ]
+
+    result = build_index(pages)
+
+    assert result == {
+        "documents": {
+            "1": {
+                "url": "https://quotes.toscrape.com/",
+                "title": "Page 1",
+                "token_count": 0
+            }
+        },
+        "index": {}
+    }
