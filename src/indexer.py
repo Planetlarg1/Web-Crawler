@@ -4,10 +4,13 @@ Target website: https://quotes.toscrape.com/
 
 Functionality:
 - Tokenise text into lowercase list of strings
+- Record word frequency and positions in a page
 """
 
 from __future__ import annotations
 import re
+
+from src.crawler import CrawledPage
 
 def tokenise(text: str) -> list[str]:
     """
@@ -20,3 +23,30 @@ def tokenise(text: str) -> list[str]:
     """
     # Find all alphanumerics
     return re.findall(r"[a-zA-Z0-9]+", text.lower())
+
+
+def index_page(page: CrawledPage) -> dict[str, dict[str, list[int] | int]]:
+    """
+    Return the frequency and locations (0 based) of words in a given crawled page.
+
+    Input: CrawledPage object
+    Output: Dict mapping of each token to frequency and position(s)
+    """
+    # Tokenise page contents
+    tokens = tokenise(page.text)
+    page_index: dict[str, dict[str, list[int] | int]] = {}
+
+    # Iterate through tokens and assign value
+    for position, token in enumerate(tokens):
+        # Add token to index
+        if token not in page_index:
+            page_index[token] = {
+                "frequency": 0,
+                "positions": []
+            }
+
+        # Increment values
+        page_index[token]["frequency"] += 1
+        page_index[token]["positions"].append(position)
+
+    return page_index
