@@ -13,6 +13,7 @@ import re
 
 from src.crawler import CrawledPage
 
+
 def tokenise(text: str) -> list[str]:
     """
     Converts text into lowercase list of word tokens.

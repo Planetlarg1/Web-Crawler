@@ -25,6 +25,7 @@ REQUEST_TIMEOUT = 10
 USER_AGENT = "COMP3011-Coursework-2-Crawler/1.0"
 POLITENESS_DELAY = 6.0
 
+
 @dataclass
 class CrawledPage:
     """
@@ -38,6 +39,7 @@ class CrawledPage:
     url: str
     title: str
     text: str
+
 
 def normalise_url(url: str) -> str:
     """
