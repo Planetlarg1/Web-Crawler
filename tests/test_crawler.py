@@ -8,9 +8,12 @@ from src.crawler import (
     fetch_page,
     wait_for_politeness,
     politely_fetch_page,
-    process_page)
+    process_page,
+    crawl_site)
 
-# URL NORMALISATION
+#####################
+# URL NORMALISATION #
+#####################
 def test_normalise_url_removes_fragment():
     result = normalise_url("https://quotes.toscrape.com/page/2/#section")
     assert result == "https://quotes.toscrape.com/page/2/"
@@ -27,8 +30,9 @@ def test_normalise_url_keeps_trailing_slash():
     result = normalise_url("https://quotes.toscrape.com/page/2/")
     assert result == "https://quotes.toscrape.com/page/2/"
 
-
-# DOMAIN CHECKING
+###################
+# DOMAIN CHECKING #
+###################
 def test_url_allowed_positive():
     result = check_url_allowed("https://quotes.toscrape.com/page/2/")
     assert result is True
@@ -41,8 +45,9 @@ def test_url_allowed_wrong_scheme():
     result = check_url_allowed("mailto://quotes.toscrape.com/page/2/")
     assert result is False
 
-
-# LINK EXTRACTION
+###################
+# LINK EXTRACTION #
+###################
 SAMPLE_HTML_LINKS = """
 <html>
     <body>
@@ -84,8 +89,9 @@ def test_extract_links_ignore_invalid_links():
     assert "https://external.example.com/" not in links
     assert "mailto://quotes.toscrape.com" not in links
 
-
-# VISIBLE TEXT EXTRACTION
+###########################
+# VISIBLE TEXT EXTRACTION #
+###########################
 SAMPLE_HTML_TEXT = """
 <html>
     <head>
@@ -174,8 +180,9 @@ def test_extract_visible_text_no_body():
     assert title == "Quotes to Scrape"
     assert text == ""
 
-
-# PAGE FETCHING
+#################
+# PAGE FETCHING #
+#################
 class FakeResponse:
     def __init__(
         self,
@@ -273,8 +280,9 @@ def test_fetch_page_real_site():
     assert "Quotes to Scrape" in html
 """
 
-
-# POLITENESS WINDOW
+#####################
+# POLITENESS WINDOW #
+#####################
 def test_politeness_initial_request(monkeypatch):
     sleep_calls = []
 
@@ -324,8 +332,9 @@ def test_politeness_without_delay(monkeypatch):
 
     assert sleep_calls == []
 
-
-# POLITE FETCHING
+###################
+# POLITE FETCHING #
+###################
 def test_fetch_page_with_delay(monkeypatch):
     sleep_calls = []
 
@@ -398,8 +407,9 @@ def test_failed_polite_fetch(monkeypatch):
     assert html is None
     assert new_time == 20
 
-
-# PROCESSING PAGES
+####################
+# PROCESSING PAGES #
+####################
 SAMPLE_HTML_PROCESS_PAGE = """
 <html>
     <head>
@@ -436,3 +446,68 @@ def test_page_processing_returns_correct_links():
     )
 
     assert links == ["https://quotes.toscrape.com/page/2/"]
+
+#################
+# CRAWLING LOOP #
+#################
+pages = {
+        "https://quotes.toscrape.com/": """
+            <html>
+                <head><title>Home</title></head>
+                <body>
+                    <p>Home page text</p>
+                    <a href="/page/2/">Page 2</a>
+                    <a href="/page/2/#section2">Duplicate Page 2</a>
+                </body>
+            </html>
+        """,
+        "https://quotes.toscrape.com/page/2/": """
+            <html>
+                <head><title>Page 2</title></head>
+                <body>
+                    <p>Second page text</p>
+                    <a href="/">Home Page</a>
+                </body>
+            </html>
+        """,
+        "https://quotes.toscrape.com/brokenpage/": None,
+        "https://quotes.toscrape.com/page/2/#section2": """
+            <html>
+                <head><title>Page 2</title></head>
+                <body>
+                    <p>Second page text</p>
+                </body>
+            </html>
+        """,
+        "https://facebook.com/": """
+            <html>
+                <head><title>Page 2</title></head>
+                <body>
+                    <p>Second page text</p>
+                </body>
+            </html>
+        """
+    }
+
+def test_crawled_exactly_correct_pages(monkeypatch):
+    def fake_fetch(url, last_request_time):
+        return pages.get(url), 100.0
+    
+    monkeypatch.setattr("src.crawler.politely_fetch_page", fake_fetch)
+
+    crawled_pages = crawl_site()
+
+    assert len(crawled_pages) == 2
+    assert crawled_pages[0].url == "https://quotes.toscrape.com/"
+    assert crawled_pages[1].url == "https://quotes.toscrape.com/page/2/"
+
+def test_crawler_respects_max_pages(monkeypatch):
+    def fake_fetch(url, last_request_time):
+        return pages.get(url), 100.0
+    
+    monkeypatch.setattr("src.crawler.politely_fetch_page", fake_fetch)
+
+    crawled_pages = crawl_site(max_pages=1)
+
+    assert len(crawled_pages) == 1
+    assert crawled_pages[0].url == "https://quotes.toscrape.com/"

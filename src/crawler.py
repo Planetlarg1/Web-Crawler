@@ -6,6 +6,11 @@ Functionality:
 - URL normalisation. This is to prevent the crawler from visiting duplicate sites, 
   e.g. https://google.com and https://google.com/
 - Ensures URL belongs to quotes.toscrape
+- Extract only the internal links from the page
+- Extract text and title from HTML
+- Fetch page HTML given a URL following the politeness window
+- Processing a page given HTML into actionable parts
+- Combine functionality into a crawling loop
 """
 
 from urllib.parse import urldefrag, urlparse, urljoin
@@ -13,6 +18,7 @@ from bs4 import BeautifulSoup
 from dataclasses import dataclass
 import requests
 import time
+from collections import deque
 
 ALLOWED_DOMAIN = "quotes.toscrape.com"
 REQUEST_TIMEOUT = 10
@@ -225,3 +231,66 @@ def process_page(url: str, html: str) -> tuple[CrawledPage, list[str]]:
     )
 
     return page, links
+
+
+def crawl_site(
+        seed_url: str = "https://quotes.toscrape.com/",
+        max_pages: int | None = None
+) -> list[CrawledPage]:
+    """
+    Crawl loop on target website.
+
+    Uses frontier queue and visited set for deduplication.
+    Only allowed URLs are fetched.
+    Politeness window is followed.
+
+    Input:
+        seed_url: The starting URL for the crawl, set to given example URL
+        max_pages: Optional page limit for tests and demos
+
+    Output:
+        A list of CrawledPage objects
+    """
+    # Initialise frontier queue
+    frontier = deque([normalise_url(seed_url)])
+    visited: set[str] = set()
+    crawled_pages: list[CrawledPage] = []
+    last_request_time: float | None = None
+
+    # Loop through URLs and add pages to crawled list
+    while frontier:
+        # Check if max_pages hit
+        if max_pages is not None and len(crawled_pages) >= max_pages:
+            break
+
+        # Pop URL
+        current_url = normalise_url(frontier.popleft())
+
+        # Check if current page has been visited
+        if current_url in visited:
+            continue
+
+        # Check if current page is permitted
+        if not check_url_allowed(current_url):
+            continue
+
+        # Mark page as visited
+        visited.add(current_url)
+
+        # Fetch HTML and update request time
+        html, last_request_time = politely_fetch_page(current_url, last_request_time)
+
+        # Check HTML exists
+        if html is None:
+            continue
+
+        # Processes returned HTML
+        page, discovered_links = process_page(current_url, html)
+        crawled_pages.append(page)
+
+        # Iterate through discovered links and add to queue if new
+        for link in discovered_links:
+            if link not in visited and link not in frontier:
+                frontier.append(link)
+
+    return crawled_pages
