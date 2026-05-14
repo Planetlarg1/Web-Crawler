@@ -12,6 +12,7 @@ Allowed Commands:
 from src.crawler import crawl_site
 from src.indexer import build_index
 from src.storage import load_index, save_index
+from src.search import get_index_for_word, find_query
 
 INDEX_FILE_PATH = "data/index.json"
 
@@ -49,11 +50,50 @@ def load() -> dict | None:
     return index_data
 
 
+def print_index(index_data: dict | None, command: str) -> dict | None:
+    """
+    Prints the index posting for a given word.
+    """
+    # Check index exists
+    if index_data is None:
+        print("No index loaded. Please run 'build' and 'load' first.")
+        return
+    
+    # Check valid syntax
+    parts = command.split()
+    if len(parts) == 1:
+        print("Please provide a term to index.")
+        return
+    elif len(parts) > 2:
+        print("Print can only be used to index a single term.")
+        return
+    
+    word = parts[1].strip()
+    postings = get_index_for_word(index_data, word)
+
+    if not postings:
+        print(f"No postings found for '{word}'.")
+        return
+    
+    # Print structured postings
+    docs = index_data.get("documents", {})
+    print(f"Postings for '{word}':")
+    print(" " + "-" * 100)
+    for doc_id, info in postings.items():
+        doc = docs.get(doc_id, {})
+        url = doc.get("url", "[Unknown URL]")
+
+        print(f"| Document {doc_id}: {url}")
+        print(f"| Frequency: {info['frequency']}")
+        print(f"| Location(s): {', '.join(map(str, info['positions']))}")
+        print(" " + "-" * 100)
+
+
 def run_shell() -> None:
     """
     Run interactive shell for command running.
     """
-    current_index: dict | None = None
+    index: dict | None = None
 
     # Helpful disclaimers
     print("Running Web Scraper and Indexer...")
@@ -74,7 +114,7 @@ def run_shell() -> None:
             break
 
         if command == "build":
-            current_index = build()
+            build()
             continue
 
         if command == "load":
@@ -82,6 +122,7 @@ def run_shell() -> None:
             continue
 
         if command.startswith("print"):
+            print_index(index, command)
             continue
 
         if command.startswith("find"):

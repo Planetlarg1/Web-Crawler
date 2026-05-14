@@ -31,7 +31,6 @@ def get_index_for_word(index_data: dict, word: str) -> dict:
     
     term = tokens[0]
 
-    # 
     return index_data.get("index", {}).get(term, {})
 
 
