@@ -7,7 +7,8 @@ from src.crawler import (
     CrawledPage,
     fetch_page,
     wait_for_politeness,
-    politely_fetch_page)
+    politely_fetch_page,
+    process_page)
 
 # URL NORMALISATION
 def test_normalise_url_removes_fragment():
@@ -396,3 +397,42 @@ def test_failed_polite_fetch(monkeypatch):
 
     assert html is None
     assert new_time == 20
+
+
+# PROCESSING PAGES
+SAMPLE_HTML_PROCESS_PAGE = """
+<html>
+    <head>
+        <title>Quotes to Scrape</title>
+    </head>
+    <body>
+        <h1>Quotes to Scrape</h1>
+        <div class="quote">
+            <span class="text">A room without books is like a body without a soul.</span>
+            <small class="author">Marcus Tullius Cicero</small>
+        </div>
+        <a href="/page/2/">Next</a>
+        <a href="https://external.example.com/">External</a>
+    </body>
+</html>
+"""
+
+def test_page_processing_page_data():
+    page, links = process_page(
+        "https://quotes.toscrape.com",
+        SAMPLE_HTML_PROCESS_PAGE
+    )
+
+    assert isinstance(page, CrawledPage)
+    assert page.url == "https://quotes.toscrape.com/"
+    assert page.title == "Quotes to Scrape"
+    assert "A room without books" in page.text
+    assert "Marcus Tullius Cicero" in page.text
+
+def test_page_processing_returns_correct_links():
+    page, links = process_page(
+        "https://quotes.toscrape.com",
+        SAMPLE_HTML_PROCESS_PAGE
+    )
+
+    assert links == ["https://quotes.toscrape.com/page/2/"]

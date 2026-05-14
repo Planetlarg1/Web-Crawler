@@ -89,7 +89,7 @@ def extract_links(html: str, base_url: str) -> list[str]:
 
     links: set[str] = set()
 
-    # Locate and process links
+    # Locate and process links if allowed
     for anchor in soup.find_all("a", href=True):
         absolute_url = urljoin(base_url, anchor["href"])
         normalised_url = normalise_url(absolute_url)
@@ -199,3 +199,29 @@ def politely_fetch_page(
     new_request_time = time.time()
 
     return html, new_request_time
+
+
+def process_page(url: str, html: str) -> tuple[CrawledPage, list[str]]:
+    """
+    Processes a fetched HTML page into actionable parts.
+
+    Input:
+        url: The URL that was fetched
+        html: The contents of the fetched page
+
+    Output:
+        CrawledPage object containing url, title, and text
+        List of discovered links
+    """
+    # Extract relevant data with helper functions
+    normalised_url = normalise_url(url)
+    title, text = extract_visible_text(html)
+    links = extract_links(html, normalised_url)
+
+    page = CrawledPage(
+        url=normalised_url,
+        title=title,
+        text=text
+    )
+
+    return page, links
