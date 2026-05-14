@@ -50,3 +50,23 @@ Implementing a FakeResponse and a FakeGet to simulate real crawling behaviour ma
 
 #### Evaluation
 This was a creative solution to a problem that I most likely would not have thought of. It also helped me understand that testing code relying on proper network traffic introduces lots of unreliable noise, and controlled testing should ensure that the processes work as expected before testing on a live website.
+
+## Example 5: Building Crawl Loop
+#### Prompt
+How can I implement a crawler loop with existing fetching, parsing, and link extraction helper functions?
+
+#### Output Summary
+The AI suggested using a frontier queue and a list of visited URLs, checking which URLs are allowed, and looping to add discovered links back into the queue, returning a page list.
+
+#### Evaluation
+The output closely matched recommendations given in the lectures, supporting its authenticity. It helped me with the technical specifics of how to implement this solution in python. However, I needed to alter the specific code to match my own helper functions and requirements, and I also implemented unit testing to ensure correctness. The AI also helped me generate example HTML pages to 'crawl' for the sake of testing.
+
+## Example 6: Reviewing Tokenisation Logic
+#### Prompt
+Is it sufficient to ignore floats in tokenisation? E.g., tokenising Python 5.12 as "Python", "5", "12".
+
+#### Output Summary
+This is sufficient for the current scope, as tokenising for floats adds lots of complexity, and indexers can still typically perform well when testing these as seperate integers. However, in a larger scale indexer, float tokenisation does have its benefits.
+
+#### Evaluation
+The AI helped me to understand an issue that I was unsure about, and gave me further insight into the functionality of tokenisers, probably saving me lots of time.
