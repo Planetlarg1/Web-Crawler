@@ -4,6 +4,7 @@ Target website: https://quotes.toscrape.com/
 
 Functionality:
 - Retrieve inverted index for a particular word for 'find' command
+- Retrieve all documents containing a given multi-term query
 """
 
 from __future__ import annotations
