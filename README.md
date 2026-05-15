@@ -4,6 +4,8 @@
 ## Overview
 The search engine tool is a command line tool for crawling the target website, "https://quotes.toscrape.com/", building and managing an inverted index, and querying specific terms.
 
+Video Demonstration Link: https://youtu.be/7jhnQuHOfaE
+
 ## Installation
 From command line, run 
 ```bash

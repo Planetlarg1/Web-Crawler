@@ -24,6 +24,31 @@
       "url": "https://quotes.toscrape.com/author/J-K-Rowling/",
       "title": "Quotes to Scrape",
       "token_count": 682
+    },
+    "6": {
+      "url": "https://quotes.toscrape.com/author/Jane-Austen/",
+      "title": "Quotes to Scrape",
+      "token_count": 345
+    },
+    "7": {
+      "url": "https://quotes.toscrape.com/author/Marilyn-Monroe/",
+      "title": "Quotes to Scrape",
+      "token_count": 396
+    },
+    "8": {
+      "url": "https://quotes.toscrape.com/author/Steve-Martin/",
+      "title": "Quotes to Scrape",
+      "token_count": 148
+    },
+    "9": {
+      "url": "https://quotes.toscrape.com/author/Thomas-A-Edison/",
+      "title": "Quotes to Scrape",
+      "token_count": 211
+    },
+    "10": {
+      "url": "https://quotes.toscrape.com/page/2/",
+      "title": "Quotes to Scrape",
+      "token_count": 643
     }
   },
   "index": {
@@ -61,6 +86,41 @@
         "positions": [
           0,
           674
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          0,
+          337
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          0,
+          388
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          0,
+          140
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          0,
+          203
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          0,
+          635
         ]
       }
     },
@@ -137,6 +197,67 @@
           443,
           453
         ]
+      },
+      "6": {
+        "frequency": 5,
+        "positions": [
+          1,
+          110,
+          241,
+          257,
+          296
+        ]
+      },
+      "7": {
+        "frequency": 7,
+        "positions": [
+          1,
+          73,
+          116,
+          140,
+          153,
+          173,
+          300
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          1,
+          72
+        ]
+      },
+      "9": {
+        "frequency": 5,
+        "positions": [
+          1,
+          75,
+          85,
+          144,
+          180
+        ]
+      },
+      "10": {
+        "frequency": 17,
+        "positions": [
+          1,
+          17,
+          33,
+          39,
+          105,
+          119,
+          214,
+          235,
+          238,
+          245,
+          248,
+          265,
+          337,
+          342,
+          466,
+          478,
+          600
+        ]
       }
     },
     "scrape": {
@@ -169,6 +290,36 @@
         "positions": [
           2
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          2
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          2
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          2
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          2
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          2
+        ]
       }
     },
     "login": {
@@ -197,6 +348,36 @@
         ]
       },
       "5": {
+        "frequency": 1,
+        "positions": [
+          3
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          3
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          3
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          3
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          3
+        ]
+      },
+      "10": {
         "frequency": 1,
         "positions": [
           3
@@ -339,6 +520,99 @@
           657,
           669
         ]
+      },
+      "6": {
+        "frequency": 18,
+        "positions": [
+          14,
+          31,
+          41,
+          77,
+          81,
+          102,
+          142,
+          167,
+          223,
+          228,
+          232,
+          239,
+          251,
+          281,
+          302,
+          316,
+          320,
+          330
+        ]
+      },
+      "7": {
+        "frequency": 17,
+        "positions": [
+          11,
+          50,
+          93,
+          159,
+          170,
+          201,
+          204,
+          243,
+          267,
+          279,
+          303,
+          315,
+          326,
+          348,
+          357,
+          362,
+          383
+        ]
+      },
+      "8": {
+        "frequency": 6,
+        "positions": [
+          13,
+          68,
+          82,
+          94,
+          98,
+          114
+        ]
+      },
+      "9": {
+        "frequency": 14,
+        "positions": [
+          14,
+          37,
+          40,
+          42,
+          55,
+          72,
+          77,
+          86,
+          96,
+          99,
+          109,
+          130,
+          170,
+          189
+        ]
+      },
+      "10": {
+        "frequency": 13,
+        "positions": [
+          27,
+          61,
+          85,
+          89,
+          319,
+          354,
+          368,
+          442,
+          487,
+          497,
+          507,
+          518,
+          583
+        ]
       }
     },
     "world": {
@@ -374,6 +648,19 @@
         "frequency": 1,
         "positions": [
           283
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          38,
+          192
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          90
         ]
       }
     },
@@ -420,6 +707,47 @@
           578,
           633
         ]
+      },
+      "6": {
+        "frequency": 7,
+        "positions": [
+          38,
+          68,
+          95,
+          97,
+          113,
+          187,
+          311
+        ]
+      },
+      "7": {
+        "frequency": 9,
+        "positions": [
+          68,
+          147,
+          322,
+          332,
+          334,
+          347,
+          372,
+          380,
+          382
+        ]
+      },
+      "9": {
+        "frequency": 3,
+        "positions": [
+          124,
+          126,
+          164
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          91,
+          243
+        ]
       }
     },
     "we": {
@@ -428,6 +756,12 @@
         "positions": [
           7,
           43
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          603
         ]
       }
     },
@@ -445,6 +779,20 @@
           139,
           179,
           617
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          313,
+          337
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          461,
+          472
         ]
       }
     },
@@ -482,6 +830,37 @@
           398,
           530,
           594
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          218
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          234
+        ]
+      },
+      "10": {
+        "frequency": 14,
+        "positions": [
+          10,
+          21,
+          41,
+          52,
+          107,
+          228,
+          264,
+          274,
+          439,
+          494,
+          504,
+          514,
+          525,
+          541
         ]
       }
     },
@@ -522,6 +901,35 @@
         "positions": [
           556,
           599
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          21
+        ]
+      },
+      "9": {
+        "frequency": 3,
+        "positions": [
+          92,
+          105,
+          137
+        ]
+      },
+      "10": {
+        "frequency": 10,
+        "positions": [
+          6,
+          30,
+          446,
+          491,
+          501,
+          511,
+          522,
+          542,
+          582,
+          597
         ]
       }
     },
@@ -603,6 +1011,79 @@
           639,
           661
         ]
+      },
+      "6": {
+        "frequency": 12,
+        "positions": [
+          36,
+          71,
+          114,
+          160,
+          188,
+          207,
+          273,
+          289,
+          297,
+          312,
+          324,
+          333
+        ]
+      },
+      "7": {
+        "frequency": 18,
+        "positions": [
+          36,
+          42,
+          66,
+          69,
+          74,
+          121,
+          125,
+          155,
+          190,
+          211,
+          217,
+          224,
+          259,
+          277,
+          293,
+          323,
+          374,
+          377
+        ]
+      },
+      "8": {
+        "frequency": 4,
+        "positions": [
+          39,
+          79,
+          90,
+          125
+        ]
+      },
+      "9": {
+        "frequency": 5,
+        "positions": [
+          5,
+          47,
+          65,
+          165,
+          185
+        ]
+      },
+      "10": {
+        "frequency": 9,
+        "positions": [
+          23,
+          206,
+          230,
+          266,
+          375,
+          447,
+          544,
+          549,
+          578
+        ]
       }
     },
     "process": {
@@ -610,6 +1091,12 @@
         "frequency": 1,
         "positions": [
           13
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          87
         ]
       }
     },
@@ -716,6 +1203,75 @@
           638,
           641
         ]
+      },
+      "6": {
+        "frequency": 16,
+        "positions": [
+          26,
+          40,
+          70,
+          80,
+          105,
+          169,
+          225,
+          227,
+          231,
+          238,
+          253,
+          285,
+          291,
+          319,
+          326,
+          332
+        ]
+      },
+      "7": {
+        "frequency": 10,
+        "positions": [
+          44,
+          58,
+          269,
+          282,
+          305,
+          311,
+          317,
+          328,
+          335,
+          353
+        ]
+      },
+      "9": {
+        "frequency": 8,
+        "positions": [
+          57,
+          71,
+          79,
+          88,
+          98,
+          108,
+          160,
+          174
+        ]
+      },
+      "10": {
+        "frequency": 15,
+        "positions": [
+          79,
+          109,
+          115,
+          233,
+          321,
+          367,
+          377,
+          489,
+          499,
+          509,
+          520,
+          546,
+          551,
+          564,
+          567
+        ]
       }
     },
     "our": {
@@ -727,6 +1283,13 @@
           37,
           49
         ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          239,
+          249
+        ]
       }
     },
     "thinking": {
@@ -736,6 +1299,12 @@
           16,
           24,
           33
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          362
         ]
       }
     },
@@ -778,6 +1347,16 @@
         "frequency": 1,
         "positions": [
           72
+        ]
+      },
+      "10": {
+        "frequency": 5,
+        "positions": [
+          45,
+          286,
+          325,
+          361,
+          479
         ]
       }
     },
@@ -875,6 +1454,60 @@
           675,
           680
         ]
+      },
+      "6": {
+        "frequency": 4,
+        "positions": [
+          89,
+          301,
+          338,
+          343
+        ]
+      },
+      "7": {
+        "frequency": 8,
+        "positions": [
+          104,
+          165,
+          186,
+          251,
+          288,
+          356,
+          389,
+          394
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          141,
+          146
+        ]
+      },
+      "9": {
+        "frequency": 3,
+        "positions": [
+          64,
+          204,
+          209
+        ]
+      },
+      "10": {
+        "frequency": 12,
+        "positions": [
+          217,
+          251,
+          276,
+          430,
+          452,
+          480,
+          528,
+          557,
+          586,
+          608,
+          636,
+          641
+        ]
       }
     },
     "albert": {
@@ -892,6 +1525,12 @@
           4,
           16,
           631
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          277
         ]
       }
     },
@@ -920,6 +1559,12 @@
           593,
           621
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          278
+        ]
       }
     },
     "about": {
@@ -943,6 +1588,35 @@
         "positions": [
           414
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          128
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          98
+        ]
+      },
+      "10": {
+        "frequency": 12,
+        "positions": [
+          216,
+          220,
+          255,
+          279,
+          363,
+          433,
+          455,
+          483,
+          531,
+          560,
+          589,
+          611
+        ]
       }
     },
     "tags": {
@@ -961,6 +1635,22 @@
           262,
           269
         ]
+      },
+      "10": {
+        "frequency": 11,
+        "positions": [
+          221,
+          256,
+          280,
+          434,
+          456,
+          484,
+          532,
+          561,
+          590,
+          612,
+          624
+        ]
       }
     },
     "change": {
@@ -974,6 +1664,12 @@
         "frequency": 1,
         "positions": [
           296
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          394
         ]
       }
     },
@@ -1057,6 +1753,29 @@
           168,
           371
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          129
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          32,
+          142
+        ]
+      },
+      "10": {
+        "frequency": 5,
+        "positions": [
+          63,
+          144,
+          151,
+          379,
+          553
+        ]
       }
     },
     "show": {
@@ -1064,6 +1783,12 @@
         "frequency": 1,
         "positions": [
           41
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          96
         ]
       }
     },
@@ -1080,6 +1805,15 @@
         "frequency": 1,
         "positions": [
           549
+        ]
+      },
+      "10": {
+        "frequency": 4,
+        "positions": [
+          7,
+          13,
+          307,
+          598
         ]
       }
     },
@@ -1106,6 +1840,19 @@
         "positions": [
           187,
           283
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          236
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          117,
+          604
         ]
       }
     },
@@ -1138,6 +1885,12 @@
         "positions": [
           330
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          403
+        ]
       }
     },
     "than": {
@@ -1159,6 +1912,12 @@
         "frequency": 1,
         "positions": [
           78
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          404
         ]
       }
     },
@@ -1184,6 +1943,12 @@
           4,
           30
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          252
+        ]
       }
     },
     "k": {
@@ -1199,6 +1964,12 @@
           5,
           31,
           90
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          253
         ]
       }
     },
@@ -1233,6 +2004,12 @@
           585,
           625
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          254
+        ]
       }
     },
     "there": {
@@ -1241,6 +2018,13 @@
         "positions": [
           59
         ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          210,
+          429
+        ]
       }
     },
     "only": {
@@ -1248,6 +2032,18 @@
         "frequency": 1,
         "positions": [
           61
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          272
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          293
         ]
       }
     },
@@ -1269,6 +2065,18 @@
         "frequency": 1,
         "positions": [
           75
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          193
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          320
         ]
       }
     },
@@ -1296,6 +2104,17 @@
         "positions": [
           66
         ]
+      },
+      "10": {
+        "frequency": 6,
+        "positions": [
+          46,
+          71,
+          121,
+          138,
+          191,
+          195
+        ]
       }
     },
     "life": {
@@ -1318,6 +2137,39 @@
         "frequency": 1,
         "positions": [
           536
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          67
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          285
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          35
+        ]
+      },
+      "10": {
+        "frequency": 10,
+        "positions": [
+          5,
+          204,
+          225,
+          485,
+          521,
+          585,
+          595,
+          596,
+          614,
+          627
         ]
       }
     },
@@ -1349,6 +2201,19 @@
           637,
           670
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          39
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          70,
+          107
+        ]
       }
     },
     "though": {
@@ -1357,6 +2222,18 @@
         "positions": [
           71,
           80
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          247
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          319
         ]
       }
     },
@@ -1390,6 +2267,18 @@
         "positions": [
           77
         ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          64
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          606
+        ]
       }
     },
     "everything": {
@@ -1397,6 +2286,14 @@
         "frequency": 1,
         "positions": [
           81
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          68,
+          154,
+          168
         ]
       }
     },
@@ -1408,6 +2305,14 @@
           147,
           219,
           271
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          224,
+          537,
+          626
         ]
       }
     },
@@ -1447,6 +2352,12 @@
         "positions": [
           411
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          291
+        ]
       }
     },
     "lady": {
@@ -1485,6 +2396,25 @@
           623,
           643
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          34
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          28
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          146,
+          186
+        ]
       }
     },
     "has": {
@@ -1507,6 +2437,12 @@
           132,
           339,
           510
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          368
         ]
       }
     },
@@ -1532,6 +2468,27 @@
           59,
           617,
           634
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          338
+        ]
+      },
+      "10": {
+        "frequency": 10,
+        "positions": [
+          285,
+          312,
+          360,
+          428,
+          460,
+          492,
+          502,
+          512,
+          523,
+          543
         ]
       }
     },
@@ -1611,6 +2568,64 @@
           656,
           671
         ]
+      },
+      "6": {
+        "frequency": 5,
+        "positions": [
+          10,
+          46,
+          203,
+          283,
+          309
+        ]
+      },
+      "7": {
+        "frequency": 12,
+        "positions": [
+          10,
+          41,
+          61,
+          77,
+          92,
+          112,
+          123,
+          143,
+          180,
+          231,
+          342,
+          361
+        ]
+      },
+      "8": {
+        "frequency": 6,
+        "positions": [
+          10,
+          35,
+          38,
+          67,
+          97,
+          113
+        ]
+      },
+      "9": {
+        "frequency": 7,
+        "positions": [
+          11,
+          113,
+          121,
+          129,
+          148,
+          154,
+          188
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          88,
+          178,
+          450
+        ]
       }
     },
     "good": {
@@ -1632,6 +2647,14 @@
         "positions": [
           648
         ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          28,
+          573,
+          575
+        ]
       }
     },
     "novel": {
@@ -1639,6 +2662,12 @@
         "frequency": 1,
         "positions": [
           109
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          144
         ]
       }
     },
@@ -1678,6 +2707,14 @@
         "positions": [
           115
         ]
+      },
+      "6": {
+        "frequency": 3,
+        "positions": [
+          4,
+          18,
+          292
+        ]
       }
     },
     "austen": {
@@ -1685,6 +2722,17 @@
         "frequency": 1,
         "positions": [
           116
+        ]
+      },
+      "6": {
+        "frequency": 6,
+        "positions": [
+          5,
+          19,
+          63,
+          219,
+          293,
+          327
         ]
       }
     },
@@ -1710,6 +2758,20 @@
           508,
           673
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          265
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          576,
+          591,
+          629
+        ]
       }
     },
     "classic": {
@@ -1727,6 +2789,12 @@
           122,
           263,
           273
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          628
         ]
       }
     },
@@ -1830,6 +2898,91 @@
           571,
           646
         ]
+      },
+      "6": {
+        "frequency": 16,
+        "positions": [
+          51,
+          61,
+          92,
+          150,
+          152,
+          158,
+          171,
+          175,
+          181,
+          198,
+          205,
+          235,
+          261,
+          271,
+          300,
+          329
+        ]
+      },
+      "7": {
+        "frequency": 12,
+        "positions": [
+          32,
+          52,
+          96,
+          118,
+          158,
+          188,
+          203,
+          215,
+          272,
+          292,
+          297,
+          376
+        ]
+      },
+      "8": {
+        "frequency": 9,
+        "positions": [
+          30,
+          50,
+          55,
+          58,
+          63,
+          87,
+          129,
+          131,
+          136
+        ]
+      },
+      "9": {
+        "frequency": 9,
+        "positions": [
+          26,
+          46,
+          82,
+          90,
+          134,
+          147,
+          172,
+          178,
+          183
+        ]
+      },
+      "10": {
+        "frequency": 14,
+        "positions": [
+          98,
+          101,
+          150,
+          173,
+          198,
+          209,
+          318,
+          340,
+          345,
+          351,
+          399,
+          422,
+          517,
+          577
+        ]
       }
     },
     "s": {
@@ -1880,6 +3033,46 @@
           531,
           605
         ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          220,
+          288
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          238,
+          284
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          52
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          119
+        ]
+      },
+      "10": {
+        "frequency": 9,
+        "positions": [
+          22,
+          205,
+          211,
+          311,
+          427,
+          495,
+          505,
+          515,
+          526
+        ]
       }
     },
     "better": {
@@ -1922,6 +3115,21 @@
         "positions": [
           141
         ]
+      },
+      "7": {
+        "frequency": 4,
+        "positions": [
+          4,
+          15,
+          197,
+          257
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          218
+        ]
       }
     },
     "monroe": {
@@ -1930,6 +3138,25 @@
         "positions": [
           142
         ]
+      },
+      "7": {
+        "frequency": 8,
+        "positions": [
+          5,
+          16,
+          64,
+          167,
+          198,
+          237,
+          283,
+          344
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          219
+        ]
       }
     },
     "yourself": {
@@ -1937,6 +3164,13 @@
         "frequency": 1,
         "positions": [
           146
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          179,
+          275
         ]
       }
     },
@@ -1961,6 +3195,12 @@
         "positions": [
           551
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          306
+        ]
       }
     },
     "man": {
@@ -1978,6 +3218,12 @@
         "positions": [
           155,
           168
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          186
         ]
       }
     },
@@ -2063,6 +3309,27 @@
           345,
           475
         ]
+      },
+      "7": {
+        "frequency": 3,
+        "positions": [
+          207,
+          228,
+          295
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          81
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          92,
+          153
+        ]
       }
     },
     "you": {
@@ -2074,6 +3341,38 @@
           228,
           255
         ]
+      },
+      "10": {
+        "frequency": 27,
+        "positions": [
+          8,
+          14,
+          31,
+          36,
+          66,
+          124,
+          131,
+          134,
+          140,
+          148,
+          157,
+          163,
+          182,
+          260,
+          270,
+          283,
+          305,
+          314,
+          322,
+          333,
+          336,
+          356,
+          364,
+          374,
+          382,
+          412,
+          420
+        ]
       }
     },
     "loved": {
@@ -2081,6 +3380,12 @@
         "frequency": 1,
         "positions": [
           183
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          295
         ]
       }
     },
@@ -2124,6 +3429,20 @@
           195,
           270
         ]
+      },
+      "10": {
+        "frequency": 9,
+        "positions": [
+          226,
+          299,
+          435,
+          490,
+          538,
+          547,
+          568,
+          569,
+          625
+        ]
       }
     },
     "i": {
@@ -2152,6 +3471,18 @@
           611,
           615
         ]
+      },
+      "10": {
+        "frequency": 7,
+        "positions": [
+          103,
+          436,
+          458,
+          464,
+          469,
+          471,
+          476
+        ]
       }
     },
     "failed": {
@@ -2175,6 +3506,14 @@
         "frequency": 1,
         "positions": [
           202
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          55,
+          155,
+          242
         ]
       }
     },
@@ -2214,6 +3553,12 @@
         "positions": [
           208
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          216
+        ]
       }
     },
     "t": {
@@ -2227,6 +3572,28 @@
         "frequency": 1,
         "positions": [
           525
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          114
+        ]
+      },
+      "10": {
+        "frequency": 11,
+        "positions": [
+          76,
+          126,
+          161,
+          184,
+          262,
+          272,
+          316,
+          389,
+          393,
+          397,
+          401
         ]
       }
     },
@@ -2242,6 +3609,24 @@
         "positions": [
           94
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          265
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          301
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          153
+        ]
       }
     },
     "thomas": {
@@ -2249,6 +3634,13 @@
         "frequency": 1,
         "positions": [
           212
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          4,
+          18
         ]
       }
     },
@@ -2258,6 +3650,16 @@
         "positions": [
           214,
           217
+        ]
+      },
+      "9": {
+        "frequency": 5,
+        "positions": [
+          6,
+          20,
+          61,
+          104,
+          168
         ]
       }
     },
@@ -2304,6 +3706,19 @@
         "positions": [
           34
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          233
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          51,
+          437
+        ]
       }
     },
     "tea": {
@@ -2328,6 +3743,14 @@
         "positions": [
           229
         ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          136,
+          142,
+          324
+        ]
       }
     },
     "know": {
@@ -2342,6 +3765,12 @@
         "frequency": 1,
         "positions": [
           593
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          416
         ]
       }
     },
@@ -2362,6 +3791,18 @@
         "frequency": 1,
         "positions": [
           131
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          152
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          35
         ]
       }
     },
@@ -2385,6 +3826,13 @@
         "positions": [
           606
         ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          125,
+          164
+        ]
       }
     },
     "hot": {
@@ -2392,6 +3840,12 @@
         "frequency": 1,
         "positions": [
           239
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          235
         ]
       }
     },
@@ -2450,6 +3904,12 @@
         "positions": [
           246
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          615
+        ]
       }
     },
     "day": {
@@ -2457,6 +3917,12 @@
         "frequency": 1,
         "positions": [
           250
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          369
         ]
       }
     },
@@ -2488,6 +3954,13 @@
         "positions": [
           621
         ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          4,
+          19
+        ]
       }
     },
     "martin": {
@@ -2495,6 +3968,14 @@
         "frequency": 1,
         "positions": [
           260
+        ]
+      },
+      "8": {
+        "frequency": 3,
+        "positions": [
+          5,
+          20,
+          100
         ]
       }
     },
@@ -2513,6 +3994,12 @@
           265,
           279
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          634
+        ]
       }
     },
     "next": {
@@ -2520,6 +4007,12 @@
         "frequency": 1,
         "positions": [
           266
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          621
         ]
       }
     },
@@ -2529,6 +4022,12 @@
         "positions": [
           267
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          622
+        ]
       }
     },
     "ten": {
@@ -2536,6 +4035,12 @@
         "frequency": 1,
         "positions": [
           268
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          623
         ]
       }
     },
@@ -2545,6 +4050,18 @@
         "positions": [
           275
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          101
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          630
+        ]
       }
     },
     "friendship": {
@@ -2552,6 +4069,16 @@
         "frequency": 1,
         "positions": [
           276
+        ]
+      },
+      "10": {
+        "frequency": 5,
+        "positions": [
+          552,
+          562,
+          565,
+          594,
+          631
         ]
       }
     },
@@ -2567,6 +4094,20 @@
         "positions": [
           428
         ]
+      },
+      "10": {
+        "frequency": 9,
+        "positions": [
+          47,
+          74,
+          87,
+          222,
+          250,
+          258,
+          574,
+          593,
+          632
+        ]
       }
     },
     "truth": {
@@ -2574,6 +4115,13 @@
         "frequency": 1,
         "positions": [
           278
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          25,
+          633
         ]
       }
     },
@@ -2607,6 +4155,36 @@
         "positions": [
           676
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          339
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          390
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          142
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          205
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          637
+        ]
       }
     },
     "com": {
@@ -2638,6 +4216,36 @@
         "frequency": 1,
         "positions": [
           677
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          340
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          391
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          143
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          206
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          638
         ]
       }
     },
@@ -2672,6 +4280,36 @@
         "frequency": 1,
         "positions": [
           678
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          341
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          392
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          144
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          207
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          639
         ]
       }
     },
@@ -2714,6 +4352,45 @@
           562,
           679
         ]
+      },
+      "6": {
+        "frequency": 3,
+        "positions": [
+          137,
+          166,
+          342
+        ]
+      },
+      "7": {
+        "frequency": 5,
+        "positions": [
+          79,
+          249,
+          276,
+          302,
+          393
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          145
+        ]
+      },
+      "9": {
+        "frequency": 3,
+        "positions": [
+          95,
+          139,
+          208
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          65,
+          640
+        ]
       }
     },
     "zyte": {
@@ -2746,6 +4423,36 @@
         "positions": [
           681
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          344
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          395
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          147
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          210
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          642
+        ]
       }
     },
     "born": {
@@ -2776,6 +4483,31 @@
           248,
           290
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          6
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          6,
+          17
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          6
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          7
+        ]
       }
     },
     "march": {
@@ -2803,6 +4535,12 @@
         "frequency": 1,
         "positions": [
           237
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          8
         ]
       }
     },
@@ -2832,6 +4570,12 @@
           22,
           505
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          135
+        ]
       }
     },
     "description": {
@@ -2857,6 +4601,30 @@
         "frequency": 1,
         "positions": [
           19
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          17
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          14
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          16
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          17
         ]
       }
     },
@@ -2909,6 +4677,43 @@
           544,
           612
         ]
+      },
+      "6": {
+        "frequency": 5,
+        "positions": [
+          20,
+          86,
+          108,
+          127,
+          210
+        ]
+      },
+      "7": {
+        "frequency": 7,
+        "positions": [
+          27,
+          138,
+          184,
+          242,
+          258,
+          273,
+          345
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          33
+        ]
+      },
+      "9": {
+        "frequency": 4,
+        "positions": [
+          21,
+          69,
+          157,
+          197
+        ]
       }
     },
     "he": {
@@ -2932,6 +4737,21 @@
         "positions": [
           419
         ]
+      },
+      "8": {
+        "frequency": 3,
+        "positions": [
+          32,
+          77,
+          123
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          68,
+          136
+        ]
       }
     },
     "completed": {
@@ -2939,6 +4759,12 @@
         "frequency": 1,
         "positions": [
           24
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          240
         ]
       }
     },
@@ -2978,6 +4804,23 @@
         "frequency": 1,
         "positions": [
           427
+        ]
+      },
+      "8": {
+        "frequency": 3,
+        "positions": [
+          43,
+          70,
+          102
+        ]
+      },
+      "9": {
+        "frequency": 4,
+        "positions": [
+          122,
+          151,
+          161,
+          193
         ]
       }
     },
@@ -3033,6 +4876,26 @@
           436,
           568,
           649
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          169,
+          266
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          48,
+          61
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          167
         ]
       }
     },
@@ -3103,6 +4966,12 @@
           41,
           365
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          142
+        ]
       }
     },
     "basis": {
@@ -3126,6 +4995,18 @@
         "frequency": 1,
         "positions": [
           46
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          34
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          133
         ]
       }
     },
@@ -3208,6 +5089,26 @@
           401,
           629
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          109
+        ]
+      },
+      "9": {
+        "frequency": 3,
+        "positions": [
+          73,
+          100,
+          194
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          288
+        ]
       }
     },
     "on": {
@@ -3229,6 +5130,38 @@
           251,
           559,
           602
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          76,
+          255
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          131
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          93,
+          110
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          198
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          172
         ]
       }
     },
@@ -3281,6 +5214,12 @@
         "positions": [
           21
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          81
+        ]
       }
     },
     "published": {
@@ -3296,6 +5235,13 @@
         "frequency": 1,
         "positions": [
           45
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          189,
+          201
         ]
       }
     },
@@ -3316,6 +5262,12 @@
         "frequency": 1,
         "positions": [
           62
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          55
         ]
       }
     },
@@ -3389,6 +5341,12 @@
           82,
           540
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          118
+        ]
       }
     },
     "citizen": {
@@ -3433,6 +5391,19 @@
         "positions": [
           143,
           280
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          132,
+          277
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          49
         ]
       }
     },
@@ -3486,6 +5457,13 @@
         "frequency": 1,
         "positions": [
           90
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          53,
+          259
         ]
       }
     },
@@ -3586,6 +5564,20 @@
           614,
           665
         ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          145,
+          209
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          71,
+          208
+        ]
       }
     },
     "organized": {
@@ -3615,6 +5607,12 @@
         "frequency": 1,
         "positions": [
           66
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          299
         ]
       }
     },
@@ -3717,6 +5715,16 @@
           143,
           153
         ]
+      },
+      "10": {
+        "frequency": 5,
+        "positions": [
+          127,
+          132,
+          352,
+          373,
+          407
+        ]
       }
     },
     "up": {
@@ -3725,6 +5733,27 @@
         "positions": [
           144,
           154
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          75,
+          121
+        ]
+      },
+      "10": {
+        "frequency": 9,
+        "positions": [
+          19,
+          42,
+          128,
+          133,
+          197,
+          237,
+          247,
+          441,
+          474
         ]
       }
     },
@@ -3747,6 +5776,18 @@
         "frequency": 1,
         "positions": [
           141
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          269
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          290
         ]
       }
     },
@@ -3805,6 +5846,12 @@
         "positions": [
           166
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          146
+        ]
       }
     },
     "vast": {
@@ -3821,6 +5868,13 @@
         "positions": [
           168,
           496
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          176,
+          195
         ]
       }
     },
@@ -3861,6 +5915,14 @@
           125,
           234
         ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          48,
+          69,
+          95
+        ]
       }
     },
     "will": {
@@ -3868,6 +5930,14 @@
         "frequency": 1,
         "positions": [
           178
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          44,
+          187,
+          372
         ]
       }
     },
@@ -3926,6 +5996,12 @@
         "positions": [
           194
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          72
+        ]
       }
     },
     "beautiful": {
@@ -3933,6 +6009,12 @@
         "frequency": 1,
         "positions": [
           197
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          207
         ]
       }
     },
@@ -3961,6 +6043,19 @@
           397,
           545
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          133
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          4,
+          581
+        ]
       }
     },
     "sure": {
@@ -3984,6 +6079,12 @@
           540,
           550
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          299
+        ]
       }
     },
     "but": {
@@ -3999,6 +6100,33 @@
         "frequency": 1,
         "positions": [
           636
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          214,
+          280
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          89
+        ]
+      },
+      "10": {
+        "frequency": 9,
+        "positions": [
+          26,
+          54,
+          123,
+          241,
+          301,
+          328,
+          370,
+          468,
+          548
         ]
       }
     },
@@ -4028,6 +6156,33 @@
         "frequency": 1,
         "positions": [
           517
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          21
+        ]
+      },
+      "7": {
+        "frequency": 3,
+        "positions": [
+          28,
+          309,
+          329
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          22
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          22,
+          158
         ]
       }
     },
@@ -4076,6 +6231,12 @@
         "positions": [
           216,
           227
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          540
         ]
       }
     },
@@ -4140,6 +6301,13 @@
         "positions": [
           521
         ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          62,
+          201
+        ]
       }
     },
     "york": {
@@ -4147,6 +6315,12 @@
         "frequency": 1,
         "positions": [
           241
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          202
         ]
       }
     },
@@ -4288,6 +6462,12 @@
           204,
           220
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          344
+        ]
       }
     },
     "weaknesses": {
@@ -4366,6 +6546,12 @@
         "positions": [
           285
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          112
+        ]
       }
     },
     "childish": {
@@ -4394,6 +6580,12 @@
           165,
           557
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          11
+        ]
       }
     },
     "interpretation": {
@@ -4409,6 +6601,12 @@
         "frequency": 1,
         "positions": [
           290
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          12
         ]
       }
     },
@@ -4438,6 +6636,17 @@
         "positions": [
           373
         ]
+      },
+      "10": {
+        "frequency": 6,
+        "positions": [
+          125,
+          261,
+          331,
+          357,
+          383,
+          406
+        ]
       }
     },
     "guardian": {
@@ -4461,6 +6670,15 @@
         "frequency": 1,
         "positions": [
           305
+        ]
+      },
+      "10": {
+        "frequency": 4,
+        "positions": [
+          147,
+          411,
+          419,
+          554
         ]
       }
     },
@@ -4522,6 +6740,16 @@
         "positions": [
           314
         ]
+      },
+      "10": {
+        "frequency": 5,
+        "positions": [
+          284,
+          298,
+          323,
+          359,
+          459
+        ]
       }
     },
     "13": {
@@ -4547,6 +6775,12 @@
           318,
           610
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          163
+        ]
       }
     },
     "while": {
@@ -4554,6 +6788,12 @@
         "frequency": 1,
         "positions": [
           319
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          602
         ]
       }
     },
@@ -4568,6 +6808,13 @@
         "frequency": 1,
         "positions": [
           654
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          73,
+          86
         ]
       }
     },
@@ -4590,6 +6837,13 @@
         "frequency": 1,
         "positions": [
           324
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          80,
+          145
         ]
       }
     },
@@ -4652,6 +6906,14 @@
         "positions": [
           340
         ]
+      },
+      "7": {
+        "frequency": 3,
+        "positions": [
+          314,
+          339,
+          370
+        ]
       }
     },
     "dubbed": {
@@ -4659,6 +6921,12 @@
         "frequency": 1,
         "positions": [
           333
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          54
         ]
       }
     },
@@ -4673,6 +6941,26 @@
         "frequency": 1,
         "positions": [
           228
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          42
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          110
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          108,
+          199,
+          355
         ]
       }
     },
@@ -4697,6 +6985,13 @@
         "frequency": 1,
         "positions": [
           341
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          210,
+          223
         ]
       }
     },
@@ -4880,6 +7175,12 @@
           455,
           547
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          72
+        ]
       }
     },
     "development": {
@@ -4888,6 +7189,18 @@
         "positions": [
           401,
           527
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          112
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          187
         ]
       }
     },
@@ -4945,6 +7258,12 @@
         "positions": [
           422
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          156
+        ]
       }
     },
     "subsequent": {
@@ -4952,6 +7271,12 @@
         "frequency": 1,
         "positions": [
           426
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          144
         ]
       }
     },
@@ -5012,6 +7337,12 @@
           40,
           82
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          232
+        ]
       }
     },
     "problems": {
@@ -5019,6 +7350,12 @@
         "frequency": 1,
         "positions": [
           447
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          291
         ]
       }
     },
@@ -5051,6 +7388,18 @@
         "frequency": 1,
         "positions": [
           464
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          47
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          43
         ]
       }
     },
@@ -5092,6 +7441,12 @@
         "positions": [
           474,
           484
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          52
         ]
       }
     },
@@ -5149,6 +7504,31 @@
         "positions": [
           17
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          15
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          12
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          14
+        ]
+      },
+      "9": {
+        "frequency": 2,
+        "positions": [
+          15,
+          131
+        ]
       }
     },
     "states": {
@@ -5164,6 +7544,24 @@
           13,
           142,
           184
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          13
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          15
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          16
         ]
       }
     },
@@ -5186,6 +7584,20 @@
           456,
           610,
           627
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          76
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          409,
+          417,
+          425
         ]
       }
     },
@@ -5241,6 +7653,15 @@
         "positions": [
           502
         ]
+      },
+      "10": {
+        "frequency": 4,
+        "positions": [
+          60,
+          78,
+          99,
+          467
+        ]
       }
     },
     "back": {
@@ -5256,6 +7677,12 @@
         "frequency": 1,
         "positions": [
           508
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          99
         ]
       }
     },
@@ -5383,6 +7810,12 @@
         "positions": [
           544
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          102
+        ]
       }
     },
     "eventually": {
@@ -5390,6 +7823,18 @@
         "frequency": 1,
         "positions": [
           546
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          211
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          132
         ]
       }
     },
@@ -5418,6 +7863,12 @@
         "frequency": 1,
         "positions": [
           553
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          199
         ]
       }
     },
@@ -5544,6 +7995,12 @@
         "positions": [
           576
         ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          88
+        ]
       }
     },
     "bertrand": {
@@ -5617,6 +8074,12 @@
         "positions": [
           598
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          360
+        ]
       }
     },
     "advanced": {
@@ -5624,6 +8087,12 @@
         "frequency": 1,
         "positions": [
           600
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          152
         ]
       }
     },
@@ -5641,6 +8110,12 @@
         "positions": [
           605
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          63
+        ]
       }
     },
     "death": {
@@ -5655,6 +8130,20 @@
         "positions": [
           66
         ]
+      },
+      "7": {
+        "frequency": 3,
+        "positions": [
+          271,
+          307,
+          366
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          524
+        ]
       }
     },
     "great": {
@@ -5668,6 +8157,18 @@
         "frequency": 1,
         "positions": [
           463
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          313
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          231
         ]
       }
     },
@@ -5795,6 +8296,12 @@
         "positions": [
           9
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          284
+        ]
       }
     },
     "paris": {
@@ -5810,6 +8317,12 @@
         "frequency": 1,
         "positions": [
           12
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          133
         ]
       }
     },
@@ -5871,6 +8384,12 @@
         "positions": [
           29
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          48
+        ]
       }
     },
     "1947": {
@@ -5886,6 +8405,18 @@
         "frequency": 1,
         "positions": [
           34
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          67
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          163
         ]
       }
     },
@@ -5916,6 +8447,25 @@
         "positions": [
           99,
           224
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          121,
+          162
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          308
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          119
         ]
       }
     },
@@ -5990,6 +8540,12 @@
         "positions": [
           56
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          28
+        ]
       }
     },
     "well": {
@@ -6003,6 +8559,31 @@
         "frequency": 1,
         "positions": [
           50
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          96
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          333,
+          381
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          125
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          94
         ]
       }
     },
@@ -6019,6 +8600,13 @@
         "frequency": 1,
         "positions": [
           62
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          25,
+          221
         ]
       }
     },
@@ -6216,6 +8804,12 @@
         "positions": [
           115
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          36
+        ]
       }
     },
     "continuous": {
@@ -6334,6 +8928,12 @@
         "positions": [
           141
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          262
+        ]
       }
     },
     "sexual": {
@@ -6378,6 +8978,13 @@
         "frequency": 1,
         "positions": [
           534
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          268,
+          355
         ]
       }
     },
@@ -6503,6 +9110,12 @@
         "positions": [
           8
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          9
+        ]
       }
     },
     "1884": {
@@ -6527,6 +9140,27 @@
         "positions": [
           20
         ]
+      },
+      "7": {
+        "frequency": 3,
+        "positions": [
+          29,
+          358,
+          385
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          23,
+          137
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          23
+        ]
       }
     },
     "leader": {
@@ -6548,6 +9182,12 @@
         "frequency": 1,
         "positions": [
           134
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          139
         ]
       }
     },
@@ -6593,6 +9233,62 @@
           653,
           672
         ]
+      },
+      "6": {
+        "frequency": 16,
+        "positions": [
+          35,
+          49,
+          56,
+          65,
+          90,
+          99,
+          106,
+          111,
+          117,
+          122,
+          245,
+          264,
+          267,
+          278,
+          286,
+          295
+        ]
+      },
+      "7": {
+        "frequency": 14,
+        "positions": [
+          59,
+          83,
+          90,
+          108,
+          132,
+          134,
+          175,
+          177,
+          194,
+          229,
+          252,
+          270,
+          306,
+          365
+        ]
+      },
+      "10": {
+        "frequency": 11,
+        "positions": [
+          287,
+          289,
+          292,
+          350,
+          353,
+          378,
+          385,
+          391,
+          395,
+          415,
+          424
+        ]
       }
     },
     "influence": {
@@ -6619,6 +9315,12 @@
           68,
           164
         ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          9
+        ]
       }
     },
     "promote": {
@@ -6644,6 +9346,12 @@
           44,
           64
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          254
+        ]
       }
     },
     "taking": {
@@ -6668,6 +9376,12 @@
         "frequency": 1,
         "positions": [
           55
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          111
         ]
       }
     },
@@ -6735,6 +9449,44 @@
           604,
           628,
           666
+        ]
+      },
+      "6": {
+        "frequency": 7,
+        "positions": [
+          85,
+          126,
+          135,
+          146,
+          184,
+          191,
+          304
+        ]
+      },
+      "7": {
+        "frequency": 4,
+        "positions": [
+          106,
+          209,
+          222,
+          367
+        ]
+      },
+      "10": {
+        "frequency": 12,
+        "positions": [
+          294,
+          297,
+          303,
+          310,
+          330,
+          358,
+          371,
+          380,
+          405,
+          410,
+          418,
+          426
         ]
       }
     },
@@ -6806,6 +9558,13 @@
         "positions": [
           95
         ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          47,
+          56
+        ]
       }
     },
     "women": {
@@ -6814,6 +9573,12 @@
         "positions": [
           96,
           111
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          254
         ]
       }
     },
@@ -6855,6 +9620,15 @@
         "positions": [
           104
         ]
+      },
+      "10": {
+        "frequency": 4,
+        "positions": [
+          129,
+          156,
+          180,
+          203
+        ]
       }
     },
     "believed": {
@@ -6887,6 +9661,12 @@
         "positions": [
           114
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          303
+        ]
       }
     },
     "co": {
@@ -6894,6 +9674,12 @@
         "frequency": 1,
         "positions": [
           120
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          245
         ]
       }
     },
@@ -6985,6 +9771,12 @@
         "positions": [
           147
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          104
+        ]
       }
     },
     "delegate": {
@@ -7008,6 +9800,12 @@
         "frequency": 1,
         "positions": [
           166
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          105
         ]
       }
     },
@@ -7080,6 +9878,12 @@
         "positions": [
           201
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          24
+        ]
       }
     },
     "declaration": {
@@ -7137,6 +9941,12 @@
         "positions": [
           233
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          321
+        ]
       }
     },
     "century": {
@@ -7144,6 +9954,20 @@
         "frequency": 1,
         "positions": [
           234
+        ]
+      },
+      "6": {
+        "frequency": 3,
+        "positions": [
+          234,
+          243,
+          322
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          81
         ]
       }
     },
@@ -7176,6 +10000,13 @@
         "frequency": 1,
         "positions": [
           241
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          43,
+          307
         ]
       }
     },
@@ -7263,6 +10094,18 @@
         "positions": [
           18
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          16
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          132
+        ]
       }
     },
     "see": {
@@ -7328,6 +10171,12 @@
           152,
           172
         ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          123
+        ]
       }
     },
     "pronounced": {
@@ -7363,6 +10212,12 @@
         "positions": [
           43,
           64
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          278
         ]
       }
     },
@@ -7451,6 +10306,12 @@
           365,
           504
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          44
+        ]
       }
     },
     "written": {
@@ -7510,6 +10371,18 @@
           548,
           576
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          305
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          107
+        ]
       }
     },
     "middle": {
@@ -7533,6 +10406,19 @@
         "frequency": 1,
         "positions": [
           93
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          229,
+          317
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          366
         ]
       }
     },
@@ -7645,6 +10531,19 @@
           126,
           644
         ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          87,
+          286
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          46
+        ]
       }
     },
     "angry": {
@@ -7661,6 +10560,12 @@
         "positions": [
           128
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          364
+        ]
       }
     },
     "marriage": {
@@ -7669,6 +10574,19 @@
         "positions": [
           130
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          256
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          570,
+          572
+        ]
       }
     },
     "sometimes": {
@@ -7676,6 +10594,12 @@
         "frequency": 1,
         "positions": [
           133
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          20
         ]
       }
     },
@@ -7857,6 +10781,12 @@
         "positions": [
           202
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          8
+        ]
       }
     },
     "km": {
@@ -7901,6 +10831,19 @@
         "positions": [
           211,
           214
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          230,
+          318
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          145
         ]
       }
     },
@@ -7965,6 +10908,12 @@
         "frequency": 1,
         "positions": [
           228
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          196
         ]
       }
     },
@@ -8112,6 +11061,12 @@
         "positions": [
           271
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          234
+        ]
       }
     },
     "village": {
@@ -8188,6 +11143,18 @@
           299,
           486
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          131
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          269
+        ]
       }
     },
     "family": {
@@ -8196,6 +11163,19 @@
         "positions": [
           301,
           396
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          74,
+          107
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          41
         ]
       }
     },
@@ -8229,6 +11209,12 @@
         "frequency": 1,
         "positions": [
           311
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          263
         ]
       }
     },
@@ -8381,6 +11367,19 @@
         "positions": [
           356
         ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          274,
+          369
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          93
+        ]
       }
     },
     "wrote": {
@@ -8390,6 +11389,13 @@
           357,
           405
         ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          151,
+          192
+        ]
       }
     },
     "fantasy": {
@@ -8397,6 +11403,13 @@
         "frequency": 1,
         "positions": [
           358
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          445,
+          457
         ]
       }
     },
@@ -8422,6 +11435,24 @@
         "positions": [
           364
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          148
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          253
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          185
+        ]
       }
     },
     "recalls": {
@@ -8437,6 +11468,13 @@
         "frequency": 1,
         "positions": [
           375
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          56,
+          82
         ]
       }
     },
@@ -8539,6 +11577,12 @@
         "positions": [
           412
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          267
+        ]
       }
     },
     "got": {
@@ -8571,6 +11615,18 @@
         "positions": [
           429
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          141
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          39
+        ]
       }
     },
     "giant": {
@@ -8595,6 +11651,12 @@
         "frequency": 1,
         "positions": [
           434
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          423
         ]
       }
     },
@@ -8643,6 +11705,12 @@
         "frequency": 1,
         "positions": [
           452
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          72
         ]
       }
     },
@@ -8790,6 +11858,20 @@
         "positions": [
           497
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          35
+        ]
+      },
+      "8": {
+        "frequency": 3,
+        "positions": [
+          78,
+          89,
+          124
+        ]
       }
     },
     "heroine": {
@@ -8815,6 +11897,19 @@
           505,
           595
         ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          97,
+          354
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          114
+        ]
       }
     },
     "teenage": {
@@ -8823,6 +11918,12 @@
         "positions": [
           514
         ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          123
+        ]
       }
     },
     "years": {
@@ -8830,6 +11931,19 @@
         "frequency": 1,
         "positions": [
           515
+        ]
+      },
+      "6": {
+        "frequency": 2,
+        "positions": [
+          124,
+          130
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          281
         ]
       }
     },
@@ -8864,6 +11978,12 @@
         "positions": [
           527
         ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          413
+        ]
       }
     },
     "think": {
@@ -8871,6 +11991,13 @@
         "frequency": 1,
         "positions": [
           529
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          338,
+          470
         ]
       }
     },
@@ -8911,6 +12038,12 @@
         "frequency": 1,
         "positions": [
           554
+        ]
+      },
+      "6": {
+        "frequency": 1,
+        "positions": [
+          91
         ]
       }
     },
@@ -8959,6 +12092,19 @@
         "frequency": 1,
         "positions": [
           573
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          42
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          463,
+          475
         ]
       }
     },
@@ -9073,6 +12219,15 @@
           626,
           650
         ]
+      },
+      "6": {
+        "frequency": 4,
+        "positions": [
+          22,
+          47,
+          82,
+          314
+        ]
       }
     },
     "arrived": {
@@ -9104,6 +12259,12 @@
         "frequency": 1,
         "positions": [
           642
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          43
         ]
       }
     },
@@ -9161,6 +12322,12 @@
         "positions": [
           659
         ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          349
+        ]
       }
     },
     "owned": {
@@ -9208,6 +12375,4245 @@
         "frequency": 1,
         "positions": [
           668
+        ]
+      }
+    },
+    "december": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          7
+        ]
+      }
+    },
+    "1775": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          9
+        ]
+      }
+    },
+    "steventon": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          11
+        ]
+      }
+    },
+    "rectory": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          12
+        ]
+      }
+    },
+    "hampshire": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          13
+        ]
+      }
+    },
+    "novelist": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          23
+        ]
+      }
+    },
+    "whose": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          24
+        ]
+      }
+    },
+    "romantic": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          27
+        ]
+      }
+    },
+    "set": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          29
+        ]
+      }
+    },
+    "among": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          30,
+          59
+        ]
+      }
+    },
+    "landed": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          32,
+          83
+        ]
+      }
+    },
+    "gentry": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          33,
+          84
+        ]
+      }
+    },
+    "place": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          37
+        ]
+      }
+    },
+    "writers": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          45
+        ]
+      }
+    },
+    "realism": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          50,
+          244
+        ]
+      }
+    },
+    "biting": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          52
+        ]
+      }
+    },
+    "commentary": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          54
+        ]
+      }
+    },
+    "cementing": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          55
+        ]
+      }
+    },
+    "historical": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          57
+        ]
+      }
+    },
+    "importance": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          58
+        ]
+      }
+    },
+    "scholars": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          60
+        ]
+      }
+    },
+    "critics": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          62
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          187
+        ]
+      }
+    },
+    "lived": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          64
+        ]
+      }
+    },
+    "entire": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          66
+        ]
+      }
+    },
+    "part": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          69,
+          237
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          29,
+          376
+        ]
+      }
+    },
+    "knit": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          73
+        ]
+      }
+    },
+    "located": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          75
+        ]
+      }
+    },
+    "lower": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          78
+        ]
+      }
+    },
+    "fringes": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          79
+        ]
+      }
+    },
+    "educated": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          87
+        ]
+      }
+    },
+    "primarily": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          88
+        ]
+      }
+    },
+    "older": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          93
+        ]
+      }
+    },
+    "brothers": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          94
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          84
+        ]
+      }
+    },
+    "through": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          98
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          67
+        ]
+      }
+    },
+    "own": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          100
+        ]
+      }
+    },
+    "steadfast": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          103
+        ]
+      }
+    },
+    "critical": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          109
+        ]
+      }
+    },
+    "professional": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          115
+        ]
+      }
+    },
+    "writer": {
+      "6": {
+        "frequency": 3,
+        "positions": [
+          116,
+          190,
+          315
+        ]
+      },
+      "8": {
+        "frequency": 2,
+        "positions": [
+          26,
+          80
+        ]
+      }
+    },
+    "artistic": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          118
+        ]
+      }
+    },
+    "apprenticeship": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          119
+        ]
+      }
+    },
+    "lasted": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          120
+        ]
+      }
+    },
+    "35": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          129
+        ]
+      }
+    },
+    "period": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          134
+        ]
+      }
+    },
+    "experimented": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          136
+        ]
+      }
+    },
+    "various": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          138
+        ]
+      }
+    },
+    "literary": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          139
+        ]
+      }
+    },
+    "forms": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          140
+        ]
+      }
+    },
+    "epistolary": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          143
+        ]
+      }
+    },
+    "tried": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          147
+        ]
+      }
+    },
+    "abandoned": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          149
+        ]
+      }
+    },
+    "extensively": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          153
+        ]
+      }
+    },
+    "revised": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          154
+        ]
+      }
+    },
+    "three": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          155
+        ]
+      }
+    },
+    "major": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          156
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          37
+        ]
+      }
+    },
+    "novels": {
+      "6": {
+        "frequency": 3,
+        "positions": [
+          157,
+          195,
+          224
+        ]
+      }
+    },
+    "began": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          159,
+          206
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          65
+        ]
+      }
+    },
+    "fourth": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          161
+        ]
+      }
+    },
+    "1811": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          163,
+          173
+        ]
+      }
+    },
+    "1816": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          165
+        ]
+      }
+    },
+    "release": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          168
+        ]
+      }
+    },
+    "sense": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          170
+        ]
+      }
+    },
+    "sensibility": {
+      "6": {
+        "frequency": 2,
+        "positions": [
+          172,
+          226
+        ]
+      }
+    },
+    "pride": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          174
+        ]
+      }
+    },
+    "prejudice": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          176
+        ]
+      }
+    },
+    "1813": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          177
+        ]
+      }
+    },
+    "mansfield": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          178
+        ]
+      }
+    },
+    "park": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          179
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          59
+        ]
+      }
+    },
+    "1814": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          180
+        ]
+      }
+    },
+    "emma": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          182
+        ]
+      }
+    },
+    "1815": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          183
+        ]
+      }
+    },
+    "achieved": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          185
+        ]
+      }
+    },
+    "additional": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          194
+        ]
+      }
+    },
+    "northanger": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          196
+        ]
+      }
+    },
+    "abbey": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          197
+        ]
+      }
+    },
+    "persuasion": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          199
+        ]
+      }
+    },
+    "both": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          200
+        ]
+      },
+      "7": {
+        "frequency": 2,
+        "positions": [
+          100,
+          373
+        ]
+      }
+    },
+    "posthumously": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          202
+        ]
+      }
+    },
+    "1818": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          204
+        ]
+      }
+    },
+    "third": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          208
+        ]
+      }
+    },
+    "titled": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          212
+        ]
+      }
+    },
+    "sanditon": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          213
+        ]
+      }
+    },
+    "died": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          215
+        ]
+      }
+    },
+    "before": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          216
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          107
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          296
+        ]
+      }
+    },
+    "completing": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          217
+        ]
+      }
+    },
+    "critique": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          222
+        ]
+      }
+    },
+    "18th": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          233
+        ]
+      }
+    },
+    "transition": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          240
+        ]
+      }
+    },
+    "19th": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          242
+        ]
+      }
+    },
+    "plots": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          246
+        ]
+      }
+    },
+    "fundamentally": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          248
+        ]
+      }
+    },
+    "comic": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          249
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          141
+        ]
+      }
+    },
+    "highlight": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          250
+        ]
+      }
+    },
+    "dependence": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          252
+        ]
+      }
+    },
+    "secure": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          258
+        ]
+      }
+    },
+    "standing": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          260
+        ]
+      }
+    },
+    "economic": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          262
+        ]
+      }
+    },
+    "security": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          263
+        ]
+      }
+    },
+    "brought": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          266
+        ]
+      },
+      "7": {
+        "frequency": 1,
+        "positions": [
+          120
+        ]
+      }
+    },
+    "little": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          268
+        ]
+      }
+    },
+    "fame": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          270
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          73
+        ]
+      }
+    },
+    "few": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          274
+        ]
+      }
+    },
+    "positive": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          275
+        ]
+      }
+    },
+    "reviews": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          276
+        ]
+      }
+    },
+    "lifetime": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          279
+        ]
+      }
+    },
+    "publication": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          282
+        ]
+      }
+    },
+    "nephew": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          287
+        ]
+      }
+    },
+    "memoir": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          290
+        ]
+      }
+    },
+    "introduced": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          294
+        ]
+      }
+    },
+    "wider": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          298
+        ]
+      }
+    },
+    "accepted": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          308
+        ]
+      }
+    },
+    "academia": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          310
+        ]
+      }
+    },
+    "saw": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          323
+        ]
+      }
+    },
+    "proliferation": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          325
+        ]
+      }
+    },
+    "scholarship": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          328
+        ]
+      }
+    },
+    "emergence": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          331
+        ]
+      }
+    },
+    "janeite": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          334
+        ]
+      }
+    },
+    "fan": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          335
+        ]
+      }
+    },
+    "culture": {
+      "6": {
+        "frequency": 1,
+        "positions": [
+          336
+        ]
+      }
+    },
+    "june": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          7,
+          21
+        ]
+      }
+    },
+    "01": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          8
+        ]
+      }
+    },
+    "1926": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          9,
+          23
+        ]
+      }
+    },
+    "norma": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          18
+        ]
+      }
+    },
+    "jeane": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          19
+        ]
+      }
+    },
+    "mortenson": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          20
+        ]
+      }
+    },
+    "1": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          22
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          116
+        ]
+      }
+    },
+    "august": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          24
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          7
+        ]
+      }
+    },
+    "5": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          25
+        ]
+      }
+    },
+    "1962": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          26
+        ]
+      }
+    },
+    "actress": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          30
+        ]
+      }
+    },
+    "model": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          31,
+          70
+        ]
+      }
+    },
+    "singer": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          33
+        ]
+      }
+    },
+    "sex": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          38,
+          386
+        ]
+      }
+    },
+    "symbol": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          39,
+          387
+        ]
+      }
+    },
+    "starring": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          40,
+          246
+        ]
+      }
+    },
+    "number": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          43
+        ]
+      }
+    },
+    "commercially": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          45
+        ]
+      }
+    },
+    "successful": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          46
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          126
+        ]
+      }
+    },
+    "pictures": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          48
+        ]
+      }
+    },
+    "1950s": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          51
+        ]
+      }
+    },
+    "early": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          53,
+          84
+        ]
+      },
+      "8": {
+        "frequency": 1,
+        "positions": [
+          44
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          162
+        ]
+      }
+    },
+    "1960s": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          54
+        ]
+      }
+    },
+    "spending": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          56
+        ]
+      }
+    },
+    "much": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          57
+        ]
+      },
+      "10": {
+        "frequency": 3,
+        "positions": [
+          113,
+          213,
+          244
+        ]
+      }
+    },
+    "childhood": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          60
+        ]
+      }
+    },
+    "foster": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          62
+        ]
+      }
+    },
+    "homes": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          63
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          181
+        ]
+      }
+    },
+    "film": {
+      "7": {
+        "frequency": 5,
+        "positions": [
+          75,
+          85,
+          127,
+          241,
+          359
+        ]
+      }
+    },
+    "contract": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          76
+        ]
+      }
+    },
+    "1946": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          78
+        ]
+      }
+    },
+    "twentieth": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          80
+        ]
+      }
+    },
+    "fox": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          82
+        ]
+      }
+    },
+    "appearances": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          86
+        ]
+      }
+    },
+    "minor": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          88
+        ]
+      }
+    },
+    "performances": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          91
+        ]
+      }
+    },
+    "asphalt": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          94
+        ]
+      }
+    },
+    "jungle": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          95
+        ]
+      }
+    },
+    "1950": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          101
+        ]
+      }
+    },
+    "drew": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          102
+        ]
+      }
+    },
+    "attention": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          103
+        ]
+      }
+    },
+    "leading": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          110
+        ]
+      }
+    },
+    "don": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          113
+        ]
+      },
+      "10": {
+        "frequency": 7,
+        "positions": [
+          75,
+          183,
+          271,
+          388,
+          392,
+          396,
+          400
+        ]
+      }
+    },
+    "bother": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          115
+        ]
+      }
+    },
+    "knock": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          117
+        ]
+      }
+    },
+    "1953": {
+      "7": {
+        "frequency": 3,
+        "positions": [
+          119,
+          151,
+          157
+        ]
+      }
+    },
+    "lead": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          122
+        ]
+      }
+    },
+    "niagara": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          124
+        ]
+      }
+    },
+    "melodramatic": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          126
+        ]
+      }
+    },
+    "noir": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          128
+        ]
+      }
+    },
+    "dwelt": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          130
+        ]
+      }
+    },
+    "seductiveness": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          133
+        ]
+      }
+    },
+    "dumb": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          135
+        ]
+      }
+    },
+    "blonde": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          136
+        ]
+      }
+    },
+    "persona": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          137
+        ]
+      }
+    },
+    "films": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          145
+        ]
+      }
+    },
+    "gentlemen": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          148
+        ]
+      }
+    },
+    "prefer": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          149
+        ]
+      }
+    },
+    "blondes": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          150
+        ]
+      }
+    },
+    "marry": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          154
+        ]
+      }
+    },
+    "millionaire": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          156
+        ]
+      }
+    },
+    "seven": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          160
+        ]
+      }
+    },
+    "year": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          161
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          268
+        ]
+      }
+    },
+    "itch": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          162
+        ]
+      }
+    },
+    "limited": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          164
+        ]
+      }
+    },
+    "typecasting": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          166
+        ]
+      }
+    },
+    "studied": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          168
+        ]
+      }
+    },
+    "actors": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          171
+        ]
+      }
+    },
+    "studio": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          172
+        ]
+      }
+    },
+    "broaden": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          174
+        ]
+      }
+    },
+    "range": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          176
+        ]
+      }
+    },
+    "dramatic": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          178
+        ]
+      }
+    },
+    "performance": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          179,
+          230
+        ]
+      }
+    },
+    "bus": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          181
+        ]
+      }
+    },
+    "stop": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          182
+        ]
+      }
+    },
+    "1956": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          183
+        ]
+      }
+    },
+    "hailed": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          185
+        ]
+      }
+    },
+    "garnered": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          189
+        ]
+      }
+    },
+    "golden": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          191,
+          225
+        ]
+      }
+    },
+    "globe": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          192,
+          226
+        ]
+      }
+    },
+    "nomination": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          193,
+          214
+        ]
+      }
+    },
+    "production": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          195
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          81
+        ]
+      }
+    },
+    "company": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          196
+        ]
+      }
+    },
+    "productions": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          199
+        ]
+      }
+    },
+    "released": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          200
+        ]
+      }
+    },
+    "prince": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          202
+        ]
+      }
+    },
+    "showgirl": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          205
+        ]
+      }
+    },
+    "1957": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          206
+        ]
+      }
+    },
+    "bafta": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          212
+        ]
+      }
+    },
+    "award": {
+      "7": {
+        "frequency": 3,
+        "positions": [
+          213,
+          221,
+          227
+        ]
+      }
+    },
+    "david": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          218
+        ]
+      }
+    },
+    "di": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          219
+        ]
+      }
+    },
+    "donatello": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          220
+        ]
+      }
+    },
+    "some": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          232
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          57,
+          59
+        ]
+      }
+    },
+    "1959": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          236
+        ]
+      }
+    },
+    "last": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          239
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          290
+        ]
+      }
+    },
+    "misfits": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          244
+        ]
+      }
+    },
+    "clark": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          247
+        ]
+      }
+    },
+    "gable": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          248
+        ]
+      }
+    },
+    "screenplay": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          250
+        ]
+      }
+    },
+    "arthur": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          255
+        ]
+      }
+    },
+    "miller": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          256
+        ]
+      }
+    },
+    "passionate": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          260
+        ]
+      }
+    },
+    "reader": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          261
+        ]
+      }
+    },
+    "hundred": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          264
+        ]
+      }
+    },
+    "photographed": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          275
+        ]
+      }
+    },
+    "final": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          280
+        ]
+      }
+    },
+    "marked": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          287
+        ]
+      }
+    },
+    "illness": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          289
+        ]
+      }
+    },
+    "reputation": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          294
+        ]
+      }
+    },
+    "unreliability": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          296
+        ]
+      }
+    },
+    "being": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          298
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          343
+        ]
+      }
+    },
+    "circumstances": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          304
+        ]
+      }
+    },
+    "overdose": {
+      "7": {
+        "frequency": 2,
+        "positions": [
+          310,
+          331
+        ]
+      }
+    },
+    "barbiturates": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          312
+        ]
+      }
+    },
+    "subject": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          316
+        ]
+      }
+    },
+    "conjecture": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          318
+        ]
+      }
+    },
+    "officially": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          320
+        ]
+      }
+    },
+    "classified": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          321
+        ]
+      }
+    },
+    "probable": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          324
+        ]
+      }
+    },
+    "suicide": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          325
+        ]
+      }
+    },
+    "possibility": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          327
+        ]
+      }
+    },
+    "accidental": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          330
+        ]
+      }
+    },
+    "homicide": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          336
+        ]
+      }
+    },
+    "ruled": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          340
+        ]
+      }
+    },
+    "out": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          341
+        ]
+      }
+    },
+    "1999": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          343
+        ]
+      }
+    },
+    "ranked": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          346
+        ]
+      }
+    },
+    "greatest": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          350
+        ]
+      }
+    },
+    "female": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          351
+        ]
+      }
+    },
+    "star": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          352
+        ]
+      }
+    },
+    "decades": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          363
+        ]
+      }
+    },
+    "cited": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          371
+        ]
+      }
+    },
+    "pop": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          375
+        ]
+      }
+    },
+    "cultural": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          378
+        ]
+      }
+    },
+    "icon": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          379
+        ]
+      }
+    },
+    "quintessential": {
+      "7": {
+        "frequency": 1,
+        "positions": [
+          384
+        ]
+      }
+    },
+    "waco": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          11
+        ]
+      }
+    },
+    "texas": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          12
+        ]
+      }
+    },
+    "stephen": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          17
+        ]
+      }
+    },
+    "glenn": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          18
+        ]
+      }
+    },
+    "actor": {
+      "8": {
+        "frequency": 2,
+        "positions": [
+          24,
+          127
+        ]
+      }
+    },
+    "comedian": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          25
+        ]
+      }
+    },
+    "playwright": {
+      "8": {
+        "frequency": 2,
+        "positions": [
+          27,
+          128
+        ]
+      }
+    },
+    "producer": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          28
+        ]
+      }
+    },
+    "musician": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          29
+        ]
+      }
+    },
+    "composer": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          31
+        ]
+      }
+    },
+    "raised": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          34
+        ]
+      }
+    },
+    "southern": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          36
+        ]
+      }
+    },
+    "california": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          37
+        ]
+      }
+    },
+    "baptist": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          40
+        ]
+      }
+    },
+    "influences": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          45
+        ]
+      }
+    },
+    "disneyland": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          49
+        ]
+      }
+    },
+    "knott": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          51
+        ]
+      }
+    },
+    "berry": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          53
+        ]
+      }
+    },
+    "farm": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          54
+        ]
+      }
+    },
+    "magic": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          57
+        ]
+      }
+    },
+    "comedy": {
+      "8": {
+        "frequency": 5,
+        "positions": [
+          59,
+          85,
+          105,
+          122,
+          138
+        ]
+      }
+    },
+    "acts": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          60
+        ]
+      }
+    },
+    "these": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          62
+        ]
+      },
+      "9": {
+        "frequency": 1,
+        "positions": [
+          155
+        ]
+      }
+    },
+    "smaller": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          65
+        ]
+      }
+    },
+    "venues": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          66
+        ]
+      }
+    },
+    "area": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          69
+        ]
+      }
+    },
+    "ascent": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          71
+        ]
+      }
+    },
+    "picked": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          74
+        ]
+      }
+    },
+    "smothers": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          83
+        ]
+      }
+    },
+    "hour": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          86
+        ]
+      }
+    },
+    "frequent": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          91
+        ]
+      }
+    },
+    "guest": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          92
+        ]
+      }
+    },
+    "tonight": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          95
+        ]
+      }
+    },
+    "1970s": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          99
+        ]
+      }
+    },
+    "performed": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          101
+        ]
+      }
+    },
+    "offbeat": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          103
+        ]
+      }
+    },
+    "absurdist": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          104
+        ]
+      }
+    },
+    "routines": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          106
+        ]
+      }
+    },
+    "packed": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          108
+        ]
+      }
+    },
+    "houses": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          109
+        ]
+      }
+    },
+    "national": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          111
+        ]
+      }
+    },
+    "tours": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          112
+        ]
+      }
+    },
+    "1980s": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          115
+        ]
+      }
+    },
+    "having": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          116
+        ]
+      }
+    },
+    "branched": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          117
+        ]
+      }
+    },
+    "away": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          118
+        ]
+      }
+    },
+    "stand": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          120
+        ]
+      },
+      "10": {
+        "frequency": 2,
+        "positions": [
+          236,
+          246
+        ]
+      }
+    },
+    "juggler": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          130
+        ]
+      }
+    },
+    "emmy": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          134
+        ]
+      }
+    },
+    "grammy": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          135
+        ]
+      }
+    },
+    "awards": {
+      "8": {
+        "frequency": 1,
+        "positions": [
+          139
+        ]
+      }
+    },
+    "february": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          8
+        ]
+      }
+    },
+    "1847": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          10
+        ]
+      }
+    },
+    "milan": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          12
+        ]
+      }
+    },
+    "ohio": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          13
+        ]
+      }
+    },
+    "alva": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          19
+        ]
+      }
+    },
+    "inventor": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          24
+        ]
+      }
+    },
+    "scientist": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          25
+        ]
+      }
+    },
+    "businessman": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          27
+        ]
+      }
+    },
+    "developed": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          29
+        ]
+      }
+    },
+    "many": {
+      "9": {
+        "frequency": 2,
+        "positions": [
+          30,
+          127
+        ]
+      }
+    },
+    "devices": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          31
+        ]
+      }
+    },
+    "greatly": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          33
+        ]
+      }
+    },
+    "influenced": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          34
+        ]
+      }
+    },
+    "phonograph": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          41
+        ]
+      }
+    },
+    "picture": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          44
+        ]
+      }
+    },
+    "camera": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          45
+        ]
+      }
+    },
+    "long": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          48
+        ]
+      }
+    },
+    "lasting": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          49
+        ]
+      }
+    },
+    "practical": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          50
+        ]
+      }
+    },
+    "electric": {
+      "9": {
+        "frequency": 2,
+        "positions": [
+          51,
+          175
+        ]
+      }
+    },
+    "bulb": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          53
+        ]
+      }
+    },
+    "wizard": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          56
+        ]
+      }
+    },
+    "menlo": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          58
+        ]
+      }
+    },
+    "now": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          60
+        ]
+      },
+      "10": {
+        "frequency": 1,
+        "positions": [
+          306
+        ]
+      }
+    },
+    "newspaper": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          66
+        ]
+      }
+    },
+    "reporter": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          67
+        ]
+      }
+    },
+    "inventors": {
+      "9": {
+        "frequency": 2,
+        "positions": [
+          74,
+          112
+        ]
+      }
+    },
+    "apply": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          76
+        ]
+      }
+    },
+    "principles": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          78
+        ]
+      }
+    },
+    "large": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          83
+        ]
+      }
+    },
+    "teamwork": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          84
+        ]
+      }
+    },
+    "invention": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          89
+        ]
+      }
+    },
+    "therefore": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          91
+        ]
+      }
+    },
+    "credited": {
+      "9": {
+        "frequency": 2,
+        "positions": [
+          94,
+          138
+        ]
+      }
+    },
+    "creation": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          97
+        ]
+      }
+    },
+    "industrial": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          101
+        ]
+      }
+    },
+    "laboratory": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          103
+        ]
+      }
+    },
+    "considered": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          106
+        ]
+      }
+    },
+    "prolific": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          111
+        ]
+      }
+    },
+    "history": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          114
+        ]
+      }
+    },
+    "holding": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          115
+        ]
+      }
+    },
+    "093": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          117
+        ]
+      }
+    },
+    "patents": {
+      "9": {
+        "frequency": 2,
+        "positions": [
+          120,
+          128
+        ]
+      }
+    },
+    "numerous": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          140
+        ]
+      }
+    },
+    "inventions": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          141
+        ]
+      }
+    },
+    "contributed": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          143
+        ]
+      }
+    },
+    "communication": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          146
+        ]
+      }
+    },
+    "particular": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          149
+        ]
+      }
+    },
+    "telecommunications": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          150
+        ]
+      }
+    },
+    "outgrowth": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          159
+        ]
+      }
+    },
+    "telegraph": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          166
+        ]
+      }
+    },
+    "operator": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          167
+        ]
+      }
+    },
+    "originated": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          169
+        ]
+      }
+    },
+    "concept": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          171
+        ]
+      }
+    },
+    "implementation": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          173
+        ]
+      }
+    },
+    "generation": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          177
+        ]
+      }
+    },
+    "distribution": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          179
+        ]
+      }
+    },
+    "businesses": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          182
+        ]
+      }
+    },
+    "factories": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          184
+        ]
+      }
+    },
+    "crucial": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          186
+        ]
+      }
+    },
+    "modern": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          190
+        ]
+      }
+    },
+    "industrialized": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          191
+        ]
+      }
+    },
+    "island": {
+      "9": {
+        "frequency": 1,
+        "positions": [
+          200
+        ]
+      }
+    },
+    "make": {
+      "10": {
+        "frequency": 3,
+        "positions": [
+          9,
+          84,
+          332
+        ]
+      }
+    },
+    "re": {
+      "10": {
+        "frequency": 4,
+        "positions": [
+          15,
+          37,
+          70,
+          164
+        ]
+      }
+    },
+    "going": {
+      "10": {
+        "frequency": 3,
+        "positions": [
+          16,
+          38,
+          118
+        ]
+      }
+    },
+    "mess": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          18,
+          40
+        ]
+      }
+    },
+    "get": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          32
+        ]
+      }
+    },
+    "decide": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          34
+        ]
+      }
+    },
+    "ll": {
+      "10": {
+        "frequency": 4,
+        "positions": [
+          49,
+          96,
+          135,
+          141
+        ]
+      }
+    },
+    "act": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          50
+        ]
+      }
+    },
+    "anyway": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          53
+        ]
+      }
+    },
+    "come": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          58,
+          97
+        ]
+      }
+    },
+    "ones": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          62
+        ]
+      }
+    },
+    "stay": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          64
+        ]
+      }
+    },
+    "let": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          77,
+          414
+        ]
+      }
+    },
+    "them": {
+      "10": {
+        "frequency": 3,
+        "positions": [
+          80,
+          110,
+          116
+        ]
+      }
+    },
+    "sisters": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          83,
+          227
+        ]
+      }
+    },
+    "lovers": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          93
+        ]
+      }
+    },
+    "too": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          100
+        ]
+      }
+    },
+    "baby": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          102
+        ]
+      }
+    },
+    "hate": {
+      "10": {
+        "frequency": 3,
+        "positions": [
+          104,
+          493,
+          535
+        ]
+      }
+    },
+    "say": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          106
+        ]
+      }
+    },
+    "actually": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          111
+        ]
+      }
+    },
+    "break": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          120,
+          384
+        ]
+      }
+    },
+    "heart": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          122,
+          386
+        ]
+      }
+    },
+    "if": {
+      "10": {
+        "frequency": 5,
+        "positions": [
+          130,
+          181,
+          259,
+          302,
+          329
+        ]
+      }
+    },
+    "find": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          137,
+          143
+        ]
+      }
+    },
+    "soulmate": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          139
+        ]
+      }
+    },
+    "whole": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          149
+        ]
+      }
+    },
+    "goes": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          152
+        ]
+      }
+    },
+    "fail": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          158,
+          166
+        ]
+      }
+    },
+    "once": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          159
+        ]
+      }
+    },
+    "doesn": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          160
+        ]
+      }
+    },
+    "mean": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          162
+        ]
+      }
+    },
+    "gonna": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          165
+        ]
+      }
+    },
+    "keep": {
+      "10": {
+        "frequency": 4,
+        "positions": [
+          169,
+          190,
+          194,
+          201
+        ]
+      }
+    },
+    "trying": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          170
+        ]
+      }
+    },
+    "hold": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          171,
+          348
+        ]
+      }
+    },
+    "always": {
+      "10": {
+        "frequency": 3,
+        "positions": [
+          174,
+          175,
+          176
+        ]
+      }
+    },
+    "believe": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          177
+        ]
+      }
+    },
+    "sweetie": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          188
+        ]
+      }
+    },
+    "so": {
+      "10": {
+        "frequency": 3,
+        "positions": [
+          189,
+          212,
+          387
+        ]
+      }
+    },
+    "head": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          192
+        ]
+      }
+    },
+    "high": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          193
+        ]
+      }
+    },
+    "chin": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          196
+        ]
+      }
+    },
+    "importantly": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          200
+        ]
+      }
+    },
+    "smiling": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          202
+        ]
+      }
+    },
+    "thing": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          208
+        ]
+      }
+    },
+    "smile": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          215,
+          408
+        ]
+      }
+    },
+    "heartbreak": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          223
+        ]
+      }
+    },
+    "takes": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          229
+        ]
+      }
+    },
+    "enemies": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          240
+        ]
+      }
+    },
+    "courage": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          257
+        ]
+      }
+    },
+    "explain": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          263
+        ]
+      }
+    },
+    "understand": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          273,
+          282
+        ]
+      }
+    },
+    "simplicity": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          281
+        ]
+      }
+    },
+    "again": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          300
+        ]
+      }
+    },
+    "loves": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          304
+        ]
+      }
+    },
+    "else": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          308
+        ]
+      }
+    },
+    "matters": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          309
+        ]
+      }
+    },
+    "perfect": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          313,
+          326
+        ]
+      }
+    },
+    "aren": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          315
+        ]
+      }
+    },
+    "either": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          317
+        ]
+      }
+    },
+    "together": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          327
+        ]
+      }
+    },
+    "laugh": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          334
+        ]
+      }
+    },
+    "cause": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          335
+        ]
+      }
+    },
+    "twice": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          339
+        ]
+      }
+    },
+    "admit": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          341
+        ]
+      }
+    },
+    "making": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          346,
+          605
+        ]
+      }
+    },
+    "mistakes": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          347
+        ]
+      }
+    },
+    "onto": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          349
+        ]
+      }
+    },
+    "every": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          365
+        ]
+      }
+    },
+    "knows": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          381
+        ]
+      }
+    },
+    "hurt": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          390
+        ]
+      }
+    },
+    "analyze": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          398
+        ]
+      }
+    },
+    "expect": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          402
+        ]
+      }
+    },
+    "mad": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          421
+        ]
+      }
+    },
+    "bob": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          431
+        ]
+      }
+    },
+    "marley": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          432
+        ]
+      }
+    },
+    "nonsense": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          438
+        ]
+      }
+    },
+    "wakes": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          440
+        ]
+      }
+    },
+    "brain": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          443
+        ]
+      }
+    },
+    "cells": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          444
+        ]
+      }
+    },
+    "necessary": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          448
+        ]
+      }
+    },
+    "ingredient": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          449
+        ]
+      }
+    },
+    "living": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          451
+        ]
+      }
+    },
+    "dr": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          453
+        ]
+      }
+    },
+    "seuss": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          454
+        ]
+      }
+    },
+    "gone": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          462
+        ]
+      }
+    },
+    "intended": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          465
+        ]
+      }
+    },
+    "ended": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          473
+        ]
+      }
+    },
+    "needed": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          477
+        ]
+      }
+    },
+    "douglas": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          481
+        ]
+      }
+    },
+    "adams": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          482
+        ]
+      }
+    },
+    "navigation": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          486
+        ]
+      }
+    },
+    "opposite": {
+      "10": {
+        "frequency": 5,
+        "positions": [
+          488,
+          498,
+          508,
+          519,
+          539
+        ]
+      }
+    },
+    "indifference": {
+      "10": {
+        "frequency": 5,
+        "positions": [
+          496,
+          506,
+          516,
+          527,
+          536
+        ]
+      }
+    },
+    "art": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          500
+        ]
+      }
+    },
+    "ugliness": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          503
+        ]
+      }
+    },
+    "faith": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          510
+        ]
+      }
+    },
+    "heresy": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          513
+        ]
+      }
+    },
+    "elie": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          529
+        ]
+      }
+    },
+    "wiesel": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          530
+        ]
+      }
+    },
+    "activism": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          533
+        ]
+      }
+    },
+    "apathy": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          534
+        ]
+      }
+    },
+    "lack": {
+      "10": {
+        "frequency": 4,
+        "positions": [
+          545,
+          550,
+          563,
+          566
+        ]
+      }
+    },
+    "unhappy": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          555,
+          571
+        ]
+      }
+    },
+    "marriages": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          556
+        ]
+      }
+    },
+    "friedrich": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          558
+        ]
+      }
+    },
+    "nietzsche": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          559
+        ]
+      }
+    },
+    "sleepy": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          579
+        ]
+      }
+    },
+    "conscience": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          580
+        ]
+      }
+    },
+    "ideal": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          584
+        ]
+      }
+    },
+    "mark": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          587
+        ]
+      }
+    },
+    "twain": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          588
+        ]
+      }
+    },
+    "contentment": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          592
+        ]
+      }
+    },
+    "happens": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          599
+        ]
+      }
+    },
+    "us": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          601
+        ]
+      }
+    },
+    "plans": {
+      "10": {
+        "frequency": 2,
+        "positions": [
+          607,
+          619
+        ]
+      }
+    },
+    "allen": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          609
+        ]
+      }
+    },
+    "saunders": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          610
+        ]
+      }
+    },
+    "fate": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          613
+        ]
+      }
+    },
+    "john": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          616
+        ]
+      }
+    },
+    "lennon": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          617
+        ]
+      }
+    },
+    "planning": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          618
+        ]
+      }
+    },
+    "previous": {
+      "10": {
+        "frequency": 1,
+        "positions": [
+          620
         ]
       }
     }

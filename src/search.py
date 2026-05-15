@@ -7,8 +7,6 @@ Functionality:
 - Retrieve all documents containing a given multi-term query
 """
 
-from __future__ import annotations
-
 from src.indexer import tokenise
 
 
@@ -34,7 +32,7 @@ def get_index_for_word(index_data: dict, word: str) -> dict:
     return index_data.get("index", {}).get(term, {})
 
 
-def find_query(index_data: dict, query: str) -> dict:
+def find_query(index_data: dict, query: str) -> list[dict]:
     """
     Returns all documents that contain all query terms.
 
@@ -43,7 +41,7 @@ def find_query(index_data: dict, query: str) -> dict:
         query: Inputted query made up of tokens to search index
 
     Output:
-        Dictionary mapping of all documents for given query
+        List of dictionary mappings of all documents for given query
     """
     # Tokenise query
     query_terms = tokenise(query)

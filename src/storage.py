@@ -7,7 +7,6 @@ Functionality:
 - Loads the index from the seperate file upon load request
 """
 
-from __future__ import annotations
 import json
 from pathlib import Path
 
@@ -24,7 +23,7 @@ def save_index(index_data: dict, file_path: str) -> None:
         json.dump(index_data, file, indent=2)
 
 
-def load_index(file_path: str) -> None:
+def load_index(file_path: str) -> dict:
     """
     Loads index from local json file.
 

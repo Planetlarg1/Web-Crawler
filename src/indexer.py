@@ -8,7 +8,6 @@ Functionality:
 - Creates full inverted index for multiple documents
 """
 
-from __future__ import annotations
 import re
 
 from src.crawler import CrawledPage
@@ -63,7 +62,7 @@ def build_index(pages: list[CrawledPage]) -> dict:
     """
     # Initialise documents and index using existing schemas
     documents: dict[str, dict[str, str | int]] = {}
-    inverted_index: dict[str, dict[str, dict[str, list[int] | int]]]= {}
+    inverted_index: dict[str, dict[str, dict[str, list[int] | int]]] = {}
 
     # Create mappings for each page
     for doc_id, page in enumerate(pages, start=1):

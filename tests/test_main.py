@@ -192,7 +192,7 @@ def test_find_displays_results_single_term(capsys):
 
     assert "Results for 'good' [2 page(s)]" in captured.out
     assert "https://quotes.toscrape.com/" in captured.out
-    assert "https://quotes.toscrape.com/page/2/"
+    assert "https://quotes.toscrape.com/page/2/" in captured.out
     assert "Score: 2" in captured.out
 
 
