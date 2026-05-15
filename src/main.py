@@ -16,7 +16,7 @@ from src.storage import load_index, save_index
 from src.search import get_index_for_word, find_query
 
 INDEX_FILE_PATH = "data/index.json"
-MAX_PAGES = 10
+MAX_PAGES = None
 
 def build() -> None:
     """
