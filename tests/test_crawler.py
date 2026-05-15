@@ -89,6 +89,13 @@ def test_extract_links_ignore_invalid_links():
     assert "https://external.example.com/" not in links
     assert "mailto://quotes.toscrape.com" not in links
 
+def test_extract_links_malformed_html():
+    html = "<html><body><a href='/page/2/'>Page 2"
+
+    links = extract_links(html, "https://quotes.toscrape.com/")
+
+    assert "https://quotes.toscrape.com/page/2/" in links
+
 ###########################
 # VISIBLE TEXT EXTRACTION #
 ###########################
@@ -179,6 +186,15 @@ def test_extract_visible_text_no_body():
 
     assert title == "Quotes to Scrape"
     assert text == ""
+
+def test_extract_visible_text_no_head_or_body():
+    html = "<div>Loose text</div>"
+
+    title, text = extract_visible_text(html)
+
+    assert title == ""
+    assert "Loose text" in text
+
 
 #################
 # PAGE FETCHING #

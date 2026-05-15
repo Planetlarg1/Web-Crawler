@@ -70,3 +70,13 @@ This is sufficient for the current scope, as tokenising for floats adds lots of 
 
 #### Evaluation
 The AI helped me to understand an issue that I was unsure about, and gave me further insight into the functionality of tokenisers, probably saving me lots of time.
+
+## Example 8: Performance Testing
+#### Prompt
+Given the current solution, how could I implement some lightweight performance testing? What should be tested, and what should the expected thresholds be?
+
+#### Output Summary
+The AI recommended I build a large number of fake pages and use the time library to measure the delay in building and querying the inverted index without accounting for the politeness window.
+
+#### Evaluation
+My implementation of these ideas can be seen in /tests/test_performance.py. While the general ideas were very useful, the code implementation that it outputted had redundant logic and loose thresholds. To optimise this, I had to make some changes to the code and thresholds to make more reliable tests.

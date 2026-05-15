@@ -8,6 +8,7 @@ Allowed Commands:
 - Print [word]
 - Find [query]
 """
+import json
 
 from src.crawler import crawl_site
 from src.indexer import build_index
@@ -15,14 +16,15 @@ from src.storage import load_index, save_index
 from src.search import get_index_for_word, find_query
 
 INDEX_FILE_PATH = "data/index.json"
+MAX_PAGES = 5
 
-def build() -> dict:
+def build():
     """
     Crawls website and builds the inverted index, storing it in index.json
     """
     # Crawl site
     print("Crawling https://quotes.toscrape.com/...")
-    pages = crawl_site(max_pages=5)
+    pages = crawl_site(max_pages=MAX_PAGES)
 
     print(f"Crawled {len(pages)} page(s).")
     
@@ -37,20 +39,23 @@ def build() -> dict:
 
 def load() -> dict | None:
     """
-    Outputs the inverted index. If index doesn't exist, returns None.
+    Loads and returns the inverted index. If index doesn't exist, returns None.
     """
     try:
         index_data = load_index(INDEX_FILE_PATH)
     except FileNotFoundError:
         print("Index does not exist. Please build the index first.")
         return None
-    
+    except json.JSONDecodeError:
+        print("Index file is invalid or corrupted. Please rebuild.")
+        return None
+
     print(f"Index loaded from {INDEX_FILE_PATH}")
 
     return index_data
 
 
-def print_index(index_data: dict | None, command: str) -> dict | None:
+def print_index(index_data: dict | None, command: str) -> None:
     """
     Prints the index posting for a given word.
     """
@@ -112,7 +117,7 @@ def find(index_data: dict | None, command: str) -> None:
         print(f"No results for '{query}'")
         return
 
-    print(f"Results for '{query}' ({len(results)} pages):")
+    print(f"Results for '{query}' [{len(results)} page(s)]:")
 
     print(" " + "-" * 100)
     for count, result in enumerate(results, start=1):
@@ -140,25 +145,26 @@ def run_shell() -> None:
 
     # Loop permanently and wait for commands
     while True:
-        command = input("> ").strip().lower()
+        command = input("> ").strip()
+        command_category = command.split(maxsplit=1)[0].lower() if command else "" 
         
-        if command == "exit":
+        if command_category == "exit":
             print("Program shutting down...")
             break
 
-        if command == "build":
+        if command_category == "build":
             build()
             continue
 
-        if command == "load":
+        if command_category == "load":
             index = load()
             continue
 
-        if command.startswith("print"):
+        if command_category == "print":
             print_index(index, command)
             continue
 
-        if command.startswith("find"):
+        if command_category == "find":
             find(index, command)
             continue
 
