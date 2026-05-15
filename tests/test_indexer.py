@@ -5,6 +5,7 @@ from src.indexer import (
     build_index
 )
 
+
 ################
 # TOKENISATION #
 ################
@@ -13,15 +14,18 @@ def test_tokenisation_lowercase():
 
     assert tokens == ["hello", "world"]
 
+
 def test_tokenisation_punctuation():
     tokens = tokenise("Hello. World's-testing!")
 
     assert tokens == ["hello", "world", "s", "testing"]
 
+
 def test_tokenisation_numbers():
     tokens = tokenise("Hello 4 World 8.8")
 
     assert tokens == ["hello", "4", "world", "8", "8"]
+
 
 def test_tokenisation_empty():
     tokens = tokenise("")
@@ -38,6 +42,7 @@ page = CrawledPage(
         text="Hello. World's-testing! hello TeSTING hello"
     )
 
+
 def test_page_indexing_frequency():
     page_index = index_page(page)
 
@@ -45,12 +50,14 @@ def test_page_indexing_frequency():
     assert page_index["testing"]["frequency"] == 2
     assert page_index["world"]["frequency"] == 1
 
+
 def test_page_indexing_positions():
     page_index = index_page(page)
 
     assert page_index["hello"]["positions"] == [0, 4, 6]
     assert page_index["testing"]["positions"] == [3, 5]
     assert page_index["world"]["positions"] == [1]
+
 
 def test_page_indexing_empty():
     page_index = index_page(CrawledPage(
@@ -60,6 +67,7 @@ def test_page_indexing_empty():
     ))
 
     assert page_index == {}
+
 
 ###########################
 # INVERTED INDEX BUILDING #
@@ -77,6 +85,7 @@ pages = [
         ),
     ]
 
+
 def test_build_index_documents():
     result = build_index(pages)
 
@@ -93,6 +102,7 @@ def test_build_index_documents():
         }
     }
 
+
 def test_build_index_term_across_pages():
     result = build_index(pages)
 
@@ -107,6 +117,7 @@ def test_build_index_term_across_pages():
         }
     }
 
+
 def test_build_index_term_in_single_page():
     result = build_index(pages)
 
@@ -115,6 +126,7 @@ def test_build_index_term_in_single_page():
     assert "1" not in result["index"]["new"]
     assert "2" in result["index"]["new"]
 
+
 def test_build_index_no_pages():
     result = build_index([])
 
@@ -122,6 +134,7 @@ def test_build_index_no_pages():
         "documents": {},
         "index": {}
     }
+
 
 def test_build_index_empty_pages():
     pages = [

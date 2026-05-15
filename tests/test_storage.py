@@ -13,6 +13,7 @@ def test_save_index_creates_file(tmp_path):
 
     assert file_path.exists()
 
+
 def test_save_stores_index(tmp_path):
     file_path = tmp_path / "index.json"
 

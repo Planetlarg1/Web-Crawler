@@ -2,6 +2,7 @@ import json
 
 from src.main import build, find, load, print_index, run_shell
 
+
 SAMPLE_INDEX_DATA = {
     "documents": {
         "1": {
@@ -88,6 +89,7 @@ def test_load_returns_index_with_file(monkeypatch, tmp_path, capsys):
     assert result == SAMPLE_INDEX_DATA
     assert "Index loaded" in captured.out
 
+
 def test_load_returns_none_with_missing_file(monkeypatch, tmp_path, capsys):
     def fake_load_index(file_path):
         raise FileNotFoundError
@@ -101,6 +103,7 @@ def test_load_returns_none_with_missing_file(monkeypatch, tmp_path, capsys):
 
     assert result is None
     assert "Index does not exist" in captured.out
+
 
 def test_load_returns_none_with_invalid_json(monkeypatch, tmp_path, capsys):
     def fake_load_index(file_path):
@@ -127,6 +130,7 @@ def test_print_index_requires_loaded_index(capsys):
 
     assert "No index loaded" in captured.out
 
+
 def test_print_index_requires_input(capsys):
     print_index(SAMPLE_INDEX_DATA, "print ")
 
@@ -142,12 +146,14 @@ def test_print_index_rejects_multiple_words(capsys):
 
     assert "Print can only be used to index a single term" in captured.out
 
+
 def test_print_no_results(capsys):
     print_index(SAMPLE_INDEX_DATA, "print orange")
 
     captured = capsys.readouterr()
 
     assert "No postings found for 'orange'" in captured.out
+
 
 def test_print_outputs_results(capsys):
     print_index(SAMPLE_INDEX_DATA, "print good")
@@ -224,6 +230,7 @@ def test_shell_disclaimers_print(monkeypatch, capsys):
     assert "- 'build'" in captured.out
     assert "- 'exit'" in captured.out
 
+
 def test_shell_exits(monkeypatch, capsys):
     inputs = iter(["exit"])
 
@@ -234,6 +241,7 @@ def test_shell_exits(monkeypatch, capsys):
     captured = capsys.readouterr()
 
     assert "Program shutting down" in captured.out
+
 
 def test_shell_unknown_command(monkeypatch, capsys):
     inputs = iter(["buildd", "exit"])
@@ -257,13 +265,3 @@ def test_shell_empty_command(monkeypatch, capsys):
     captured = capsys.readouterr()
 
     assert "Missing or unknown command" in captured.out
-
-"""
-def test_shell_robuts_inputs(monkeypatch, capsys):
-    built = 0
-    loaded = 0
-    printed = 0
-    found = 0
-
-    def fake_build():
-        return 1"""

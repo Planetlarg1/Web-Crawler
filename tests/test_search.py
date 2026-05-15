@@ -1,5 +1,6 @@
 from src.search import get_index_for_word, find_query
 
+
 SAMPLE_INDEX_DATA = {
     "documents": {
         "1": {
@@ -43,6 +44,7 @@ SAMPLE_INDEX_DATA = {
     },
 }
 
+
 ##############################
 # FIND INDEX FOR SINGLE TERM #
 ##############################
@@ -60,6 +62,7 @@ def test_find_existing_term():
         }
     }
 
+
 def test_find_term_case_punctuation_insensitive():
     postings = get_index_for_word(SAMPLE_INDEX_DATA, " GooD.!")
 
@@ -74,15 +77,18 @@ def test_find_term_case_punctuation_insensitive():
         }
     }
 
+
 def test_find_empty_term():
     postings = get_index_for_word(SAMPLE_INDEX_DATA, "")
 
     assert postings == {}
 
+
 def test_find_missing_term():
     postings = get_index_for_word(SAMPLE_INDEX_DATA, "missing")
 
     assert postings == {}
+
 
 def test_find_multiple_terms():
     postings = get_index_for_word(SAMPLE_INDEX_DATA, "good friends")
@@ -113,6 +119,7 @@ def test_find_single_term():
         }
     ]
 
+
 def test_find_several_terms():
     results = find_query(SAMPLE_INDEX_DATA, "good friends")
 
@@ -126,6 +133,7 @@ def test_find_several_terms():
         }
     ]
 
+
 def test_find_case_and_punctuation_insensitive():
     results = find_query(SAMPLE_INDEX_DATA, "GOOD. friends! ")
 
@@ -138,6 +146,7 @@ def test_find_case_and_punctuation_insensitive():
             "matched_terms": ["good", "friends"]
         }
     ]
+
 
 def test_find_correct_ranking():
     results = find_query(SAMPLE_INDEX_DATA, "hello")
@@ -159,10 +168,12 @@ def test_find_correct_ranking():
         }
     ]
 
+
 def test_find_missing_query():
     results = find_query(SAMPLE_INDEX_DATA, "hello world")
 
     assert results == []
+
 
 def test_find_empty_query():
     results = find_query(SAMPLE_INDEX_DATA, "")
