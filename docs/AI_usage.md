@@ -1,6 +1,9 @@
 # Evaluation of Generative AI Usage
 ## Overview
-adsf
+Generative AI was used throughout this project to help with planning, technical implementation, error handling, and evaluation of design choices. While it did offer code snippets, it generally needed expanding upon and adapting to my own code, so these were instead treated as suggestions to review before implementation.
+The main benefit of AI was that it helped me to follow approaches I wouldn't have necessarily thought of myself, such as using monkeypatch to create fake functions for the sake of saving time when unit testing. Many of these discoveries may have been possible with additional research, but in situations where the answer isn't clear, using AI is a good way to reach a solution quickly and then build from there.
+However, AI outputs were not always suitable or adjusted for the specific coursework requirements, which is why the code itself was often incomplete. Adding its suggested implementation to my existing helper functions was the better course of action for this reason.
+Using AI leveraged my learning through this project, as it did not take away from my own ideas, instead adding to those and helping me improve my existing solutions.
 ## Example 1: URL Normalisation
 #### Prompt
 What conditions should a web crawler check for when normalising a URL to prevent duplicate visits?

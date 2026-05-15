@@ -3,7 +3,7 @@ Search Utilities for web scraping.
 Target website: https://quotes.toscrape.com/
 
 Functionality:
-- Retrieve inverted index for a particular word for 'find' command
+- Retrieve inverted index for a particular word for 'print' command
 - Retrieve all documents containing a given multi-term query
 """
 
